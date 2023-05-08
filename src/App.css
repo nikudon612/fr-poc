@@ -12,4 +12,14 @@
   src: url(../src/Assets/PostGrotesk-Bold.otf);
  }
 
+ @font-face {
+  font-family: 'post grotesk light';
+  src: url(../src/Assets/PostGrotesk-Light.otf);
+ }
+
+ @font-face {
+  font-family: 'voyage';
+  src: url('../src/Assets/Voyage-Regular.otf');
+ }
+
 

@@ -2,6 +2,8 @@ import './App.css';
 import Header from './Components/Header';
 import Hero from './Components/Hero';
 import Panel1 from './Components/Panel1';
+import Panel2 from './Components/Panel2';
+import Panel3 from './Components/Panel3';
 
 function App() {
   return (
@@ -9,6 +11,8 @@ function App() {
       <Header />
       <Hero />
       <Panel1 />
+      <Panel2 />
+      <Panel3 />
     </div>
   );
 }

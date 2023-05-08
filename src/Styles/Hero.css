@@ -14,21 +14,22 @@
 }
 .hero-text{
     color: white;
-    padding: 100px 65px;
+    padding: 150px 65px;
 }
 .small-hero-text {
     font-size: 20px;
     font-weight: 400;
     display: flex;
     justify-content: flex-start;
-    margin: 0px;
+    margin: -15px 0px;
 }
 .larger-hero-text {
     font-size: 100px;
-    font-weight: 600;
+    font-weight: 500;
     display: flex;
     justify-content: flex-start;
     margin: 0px;
+    font-family: 'voyage';
 }
 .hero-right {
     width: 50%;
@@ -55,4 +56,18 @@
     justify-content: center;
     text-decoration: none;
     margin-left: 65px;
+    margin-top: 325px;
+}
+
+.ampersand {
+    font-family: 'voyage';
+    font-size: 200px;
+    font-weight: 500;
+    margin: 15px -15px;
+    color: #D1EF59;
+    position: absolute;
+}
+.Culture {
+    position: absolute;
+    margin: 75px 136px;
 }

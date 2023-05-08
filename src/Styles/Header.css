@@ -6,9 +6,10 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    /* justify-content: flex-start; */
     margin: 0px;
     padding: 0;
+    border-bottom: 1px solid #D0D3DA;
+    z-index: 100;
 }
 
 .logo {
@@ -30,8 +31,9 @@
 }
 .line {
     color: #D0D3DA;
-    width: 1380px;
     height: 2px;
+    padding-bottom: 30px;
+    padding-top: 30px;
 }
 
 

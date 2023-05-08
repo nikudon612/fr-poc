@@ -1,0 +1,87 @@
+.panel2 {
+    height: 95vh;
+    background-color: #F4F4F4;
+    display: flex;
+    /* padding-top: 100px; */
+}
+.panel2-left {
+    display: flex;
+    width: 45vw;
+    height: 100%;
+}
+.panel2-image {
+    width: 90%;
+    height: 99%;
+    object-fit: fill;
+    padding-top: 10px;
+}
+.panel2-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 55vw;
+}
+ .panel2-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* padding-left: 10%; */
+    padding-right: 10%;
+    margin: 0px;
+ }
+ .bold-text {
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'post grotesk';
+    margin: 0px;
+ }
+ .italic-text {
+    font-size: 40px;
+    font-weight: 400;
+    font-style: italic;
+    font-family: 'span';
+    margin: 0px;
+ }
+
+ line {
+    width: 100%;
+    height: 1px;
+    margin: 5px;
+    padding: 0px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+ }
+
+ .panel2-lower-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* padding-left: 10%; */
+    padding-right: 10%;
+    margin: 0px;
+ }
+
+ .list-text {
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 'post grotesk light';
+    margin: 1px;
+
+ }
+
+ .panel2-next {
+    position: absolute;
+    color: #001633;
+    width: 120px;
+    height: 40px;
+    border: 1px solid #001633;
+    border-radius: 20px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    /* margin-left: 65px; */
+    margin-top: 800px;
+ }
