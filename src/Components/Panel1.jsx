@@ -5,7 +5,7 @@ import { gsap } from 'gsap';
 
 const Panel1 = () => {
     function click2() {
-        gsap.to(window, {duration: 1.25, scrollTo: {y: ".panel2", offsetY: 0}});
+        gsap.to(window, {duration: 1.25, scrollTo: {y: ".panel2", offsetY: 50}});
     }
 
     React.useEffect(() => {

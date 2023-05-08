@@ -1,0 +1,40 @@
+.panel4 {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    background-color: #001633;
+    flex-direction: column;
+}
+.panel4-top {
+    height: 75%;
+    width: 100%;
+    display: flex;
+}
+.panel4-text {
+    color: white;
+    font-family: 'post grotesk light';
+    font-weight: 300;
+    font-size: 30px;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 55%;
+}
+.panel4-para {
+    display: flex;
+}
+.panel4-bold {
+    font-family: 'post grotesk';
+    font-weight: 700;
+    font-size: 20px;
+}
+.panel4-bottom {
+    height: 25%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.panel4-image {
+    height: 100%;
+    width: 100%;
+}

@@ -5,7 +5,7 @@ import { gsap } from 'gsap';
 
 const Panel2 = () => {
     function click3() {
-        gsap.to(window, {duration: 1.25, scrollTo: {y: ".panel3", offsetY: 0}});
+        gsap.to(window, {duration: 1.25, scrollTo: {y: ".panel3", offsetY: 30}});
     }
   return (
     <div className='panel2'>
