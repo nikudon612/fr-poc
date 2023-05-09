@@ -22,7 +22,7 @@ const Panel4 = () => {
         start: "top 80%",
         end: "center center",
         once: true,
-        markers: {startColor: "green", endColor: "red", fontSize: "12px"}
+        // markers: {startColor: "green", endColor: "red", fontSize: "12px"}
         },
         onComplete: fadeIn})
     },[]);
