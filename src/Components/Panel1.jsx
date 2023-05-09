@@ -8,8 +8,11 @@ const Panel1 = () => {
     function click2() {
         gsap.to(window, {duration: 1.25, scrollTo: {y: ".panel2", offsetY: 50}, onComplete: fadeIn});
     }
+    function fadeTwo() { 
+        gsap.fromTo(".two", {opacity: 0, y: 50}, {duration: 1, y:0, opacity: 1, ease: "power2.inOut"}).delay(0.25);
+    }
     function fadeIn() {
-        gsap.fromTo(".panel1-text", {opacity: 0, y: 50}, {duration: 1, y:0, opacity: 1, ease: "power2.inOut"}).delay(0.25);
+        gsap.fromTo(".one", {opacity: 0, y: 50}, {duration: 1, y:0, opacity: 1, ease: "power2.inOut", onComplete: fadeTwo}).delay(0.25);
     }
     React.useEffect(() => {
         gsap.registerPlugin(ScrollTrigger);
@@ -28,10 +31,10 @@ const Panel1 = () => {
             <div className='panel1-top-left'></div>
             <div className='panel1-top-right'>
             <div className='panel1-text'>
-                <p className='panel1-italic-text' id="1">The Next Wave of</p>
-                <p className='panel1-bold-text' id='2'>Game-Changing Companies</p>
-                <p className='panel1-italic-text'id="3">Will be</p>
-                <p className='panel1-bold-text'id="4">Life-Changing Companies</p>
+                <p className='panel1-italic-text one' >The Next Wave of</p>
+                <p className='panel1-bold-text one' >Game-Changing Companies</p>
+                <p className='panel1-italic-text two'>Will be</p>
+                <p className='panel1-bold-text two'>Life-Changing Companies</p>
             </div>
             </div>
         </div>

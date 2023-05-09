@@ -16,6 +16,11 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+}
+.one {
+    opacity: 0;
+}
+.two {
     opacity: 0;
 }
 .panel1-italic-text {
