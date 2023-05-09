@@ -74,7 +74,7 @@
 
  }
 
- .panel2-next {
+ #panel2-next {
     position: absolute;
     color: #001633;
     width: 120px;

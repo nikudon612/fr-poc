@@ -44,7 +44,7 @@
     object-fit: cover;
 }
 
-.panel1-hero-button {
+#panel1-hero-button {
     position: absolute;
     color: #ffffff;
     width: 120px;

@@ -3,7 +3,6 @@ import '../Styles/Hero.css';
 import mango from '../Assets/Rectangle.png'
 import yellow from '../Assets/yellow.png'
 import { gsap } from 'gsap';
-import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { ScrollToPlugin } from 'gsap/all';
 import {Carousel} from "react-bootstrap";
 
@@ -30,7 +29,7 @@ function Hero() {
                     <span className='Culture'>Culture</span>
                 </div> 
             </div>
-            <a href='#' className='hero-button' onClick={click}>
+            <a href='#' id='hero-button' onClick={click}>
                 Next
             </a>
         </div>

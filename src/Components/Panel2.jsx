@@ -44,7 +44,7 @@ const Panel2 = () => {
                     <li className='list-text'>Massive demographic shifts are fueling emerging needs.</li>
                 </div>
             </div>
-            <a className='panel2-next' onClick={click3}>Next</a>
+            <a id='panel2-next' onClick={click3}>Next</a>
         </div>
     </div>
   )
