@@ -1,8 +1,24 @@
 import React from 'react'
 import '../Styles/Header.css';
 import logo from '../Assets/Vector.png';
+import { gsap } from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 function Header() {
+  function changeHeader() {
+    gsap.fromTo(".header", {backgroundColor: "transparent"}, { backgroundColor: "#001633", ease: "power2.inOut"});
+  }
+  React.useEffect(() => {
+    gsap.registerPlugin(ScrollTrigger);
+    gsap.from('.header', { scrollTrigger: {
+      trigger: ".panel1",
+      start: "top top",
+      end: "bottom bottom",
+      markers: {startColor: "green", endColor: "red", fontSize: "12px"},
+      scrub: true,
+    },
+    onComplete: changeHeader})
+  },[]);
   return (
     <div className='header'>
       <div className='header-left'>

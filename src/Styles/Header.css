@@ -22,7 +22,7 @@
     align-items: center;
     justify-content: flex-end;
     width: 100%;
-    padding-right: 63px;
+    /* padding-right: 63px; */
 
 }
 .header-links a {
@@ -48,6 +48,10 @@
 }
 .header-right {
     width: 50%;
-
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-end;
 }
 

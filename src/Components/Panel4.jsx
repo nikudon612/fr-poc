@@ -31,7 +31,7 @@ const Panel4 = () => {
         <div className='panel4-top'>
             <div className='panel4-text'>
                 <div className='panel4-para'>Our vision for tomorrow comes from our empathy for today.
-                <br/> In an industry obsessed with trailblazing, we go one step further: We meet the consumer where they're going. That makes us unique - and we're here to share that insight with founders. When big thinkers are poised on teh brink of transforming culture, they become more than just founders or CEOs, or investors, or entrepreneurs. </div>
+                In an industry obsessed with trailblazing, we go one step further: We meet the consumer where they're going. That makes us unique - and we're here to share that insight with founders. When big thinkers are poised on teh brink of transforming culture, they become more than just founders or CEOs, or investors, or entrepreneurs. </div>
                 <div className='panel4-bold'>THEY BECOME FORERUNNERS.</div>
             </div>
         </div>
