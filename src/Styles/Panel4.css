@@ -17,18 +17,26 @@
     font-size: 30px;
     flex-direction: column;
     align-items: flex-start;
-    width: 55%;
+    width: 65%;
+    justify-content: center;
+    display: flex;
+    text-align: left;
+    margin-left: 65px;
 }
 .panel4-para {
     display: flex;
+    justify-content: flex-start;
+    line-height: 50px;
+
 }
 .panel4-bold {
     font-family: 'post grotesk';
     font-weight: 700;
     font-size: 20px;
+    margin-top: 30px;
 }
 .panel4-bottom {
-    height: 25%;
+    height: 33%;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -37,4 +45,22 @@
 .panel4-image {
     height: 100%;
     width: 100%;
+}
+
+.panel4-button {
+    position: absolute;
+    position: absolute;
+    color: #ffffff;
+    width: 120px;
+    height: 40px;
+    border: 1px solid #ffffff;
+    border-radius: 20px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 100px;
+    margin-right: 1700px;
 }
