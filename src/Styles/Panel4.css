@@ -51,7 +51,6 @@
 
 .panel4-button {
     position: absolute;
-    position: absolute;
     color: #ffffff;
     width: 120px;
     height: 40px;
@@ -64,5 +63,6 @@
     text-decoration: none;
     cursor: pointer;
     margin-top: 100px;
-    margin-right: 1700px;
+    /* margin-right: 1700px; */
+    left: 65px;
 }
