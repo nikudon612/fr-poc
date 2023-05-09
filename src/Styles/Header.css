@@ -1,6 +1,6 @@
 .header{
     height: 100px;
-    background-color: #001633;
+    /* background-color: #001633; */
     position: sticky;
     top: 0 !important;
     display: flex;
@@ -10,6 +10,7 @@
     padding: 0;
     border-bottom: 1px solid #D0D3DA;
     z-index: 100;
+    justify-content: space-between;
 }
 
 .logo {
@@ -38,5 +39,15 @@
     padding-bottom: 30px;
     padding-top: 30px;
 }
+.header-left {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    background-color: #001633;
+    align-items: center;
+}
+.header-right {
+    width: 50%;
 
+}
 
