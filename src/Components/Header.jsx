@@ -18,21 +18,10 @@ function Header() {
       trigger: ".panel1",
       start: "top 15%",
       end: "bottom bottom",
-      // markers: {startColor: "green", endColor: "red", fontSize: "12px"},
       scrub: true,
     },
     onComplete: changeHeader})
   },[]);
-
-  // gsap.from('.header', { scrollTrigger: {
-  //   trigger: ".hero",
-  //   start: "top 15%",
-  //   end: "bottom top",
-  //   scrub: true,
-  //   markers: {startColor: "green", endColor: "red", fontSize: "12px"}
-  // }, 
-  // onComplete: changeHeader2
-  // })
   return (
     <div className='header'>
       <div className='header-left'>
@@ -42,10 +31,10 @@ function Header() {
         </div>
         <div className='header-right'>
           <div className='header-links'>
-            <a href='#'>Companies</a>
-            <a href='#'>Team</a>
-            <a href='#'>Persepectives</a>
-            <a href='#'>Platforms</a>
+            <a href='#' id="link">Companies</a>
+            <a href='#' id="link">Team</a>
+            <a href='#'id="link">Persepectives</a>
+            <a href='#' id="link">Platforms</a>
           </div>
         </div>
         

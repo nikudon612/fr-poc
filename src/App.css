@@ -22,12 +22,7 @@
   src: url('../src/Assets/Voyage-Regular.otf');
  }
 
- .carousel-control-prev-icon {
-  display: none;
-}
-.carousel-control-next-icon {
-  display: none;
-}
+
 
 a :hover{
   text-decoration: none !important;

@@ -9,10 +9,10 @@ const Panel1 = () => {
         gsap.to(window, {duration: 1.25, scrollTo: {y: ".panel2", offsetY: 50}, onComplete: fadeIn});
     }
     function fadeTwo() { 
-        gsap.fromTo(".two", {opacity: 0, y: 50}, {duration: 1, y:0, opacity: 1, ease: "power2.inOut"}).delay(0.25);
+        gsap.fromTo(".two", {opacity: 0, y: 50}, {duration: 1, y:0, opacity: 1, ease: "power2.inOut"});
     }
     function fadeIn() {
-        gsap.fromTo(".one", {opacity: 0, y: 50}, {duration: 1, y:0, opacity: 1, ease: "power2.inOut", onComplete: fadeTwo}).delay(0.25);
+        gsap.fromTo(".one", {opacity: 0, y: 50}, {duration: 1, y:0, opacity: 1, ease: "power2.inOut", onComplete: fadeTwo});
     }
     React.useEffect(() => {
         gsap.registerPlugin(ScrollTrigger);
