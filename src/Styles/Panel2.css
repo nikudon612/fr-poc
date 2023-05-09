@@ -28,6 +28,7 @@
     /* padding-left: 10%; */
     padding-right: 10%;
     margin: 0px;
+
  }
  .bold-text {
     font-size: 40px;
@@ -60,8 +61,11 @@
     /* padding-left: 10%; */
     padding-right: 10%;
     margin: 0px;
+    opacity: 0;
  }
-
+.panel2-upper-text {
+   opacity: 0;
+}
  .list-text {
     font-size: 20px;
     font-weight: 300;

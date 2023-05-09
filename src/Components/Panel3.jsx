@@ -2,11 +2,30 @@ import React from 'react'
 import '../Styles/Panel3.css';
 import { gsap } from 'gsap';
 import phone from '../Assets/phone.png';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
+
 
 const Panel3 = () => {
     function click4() {
         gsap.to(window, {duration: 1.25, scrollTo: {y: ".panel4", offsetY: 50}});
     }
+    React.useEffect(() => {
+        gsap.registerPlugin(ScrollTrigger);
+        function fadeIn() {
+            gsap.fromTo(".panel3-upper-text", {opacity: 0, y: 50}, {duration: 1, y:0, opacity: 1, ease: "power2.inOut",  onComplete: fadeLowerIn()});
+        }
+        function fadeLowerIn() {   
+            gsap.fromTo(".panel3-lower-text", {opacity: 0, y: 50}, {duration: 1, y:0, opacity: 1, ease: "power2.inOut"}).delay(0.6);
+        }
+        gsap.from('.panel3', { scrollTrigger: {
+        trigger: ".panel3",
+        start: "top 80%",
+        end: "center center",
+        once: true,
+        markers: {startColor: "green", endColor: "red", fontSize: "12px"}
+        },
+        onComplete: fadeIn})
+    },[]);
   return (
     <div className='panel3'>
         <div className='panel3'>
