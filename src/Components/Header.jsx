@@ -6,19 +6,33 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 function Header() {
   function changeHeader() {
-    gsap.fromTo(".header", {backgroundColor: "transparent"}, { backgroundColor: "#001633", ease: "power2.inOut"});
+    gsap.fromTo(".header", {backgroundColor: "transparent"}, { backgroundColor: "#001633", ease: "power2.inOut", scrub: true});
+  }
+  function changeHeader2() {
+    gsap.fromTo(".header", {backgroundColor: "#001633"}, { backgroundColor: "transparent", ease: "power2.inOut", scrub: true})
   }
   React.useEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
+
     gsap.from('.header', { scrollTrigger: {
       trigger: ".panel1",
-      start: "top top",
+      start: "top 15%",
       end: "bottom bottom",
-      markers: {startColor: "green", endColor: "red", fontSize: "12px"},
+      // markers: {startColor: "green", endColor: "red", fontSize: "12px"},
       scrub: true,
     },
     onComplete: changeHeader})
   },[]);
+
+  // gsap.from('.header', { scrollTrigger: {
+  //   trigger: ".hero",
+  //   start: "top 15%",
+  //   end: "bottom top",
+  //   scrub: true,
+  //   markers: {startColor: "green", endColor: "red", fontSize: "12px"}
+  // }, 
+  // onComplete: changeHeader2
+  // })
   return (
     <div className='header'>
       <div className='header-left'>

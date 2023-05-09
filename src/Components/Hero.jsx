@@ -1,9 +1,11 @@
 import React from 'react'
 import '../Styles/Hero.css';
-import heroImage from '../Assets/Rectangle.png'
+import mango from '../Assets/Rectangle.png'
+import yellow from '../Assets/yellow.png'
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { ScrollToPlugin } from 'gsap/all';
+import {Carousel} from "react-bootstrap";
 
 function Hero() {
     gsap.registerPlugin(ScrollToPlugin);
@@ -34,7 +36,15 @@ function Hero() {
         </div>
         <div className='hero-right'>
             <div className='hero-image'>
-                <img src={heroImage} alt='hero' className='hero-image'/>
+                <Carousel fade>
+                    <Carousel.Item>
+                        <img className='d-block w-100' src={mango} alt="first slide"/>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img className='d-block w-100' src={yellow} alt="second slide"/>
+                    </Carousel.Item>
+                </Carousel>
+                {/* <img src={heroImage} alt='hero' className='hero-image'/> */}
             </div>
         </div>
     </div>
