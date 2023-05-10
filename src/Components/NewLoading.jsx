@@ -16,7 +16,7 @@ function NewLoading() {
             start: "top top",
             end: "bottom top",
             scrub: 1,
-            markers: {startColor: "green", endColor: "red", fontSize: "12px"}
+            // markers: {startColor: "green", endColor: "red", fontSize: "12px"}
         }, 
         duration: 1, width: '100%', y: '-200%'
     }
@@ -25,7 +25,7 @@ function NewLoading() {
         start: "top top",
         end: "bottom top",
         scrub: 1,
-        markers: {startColor: "green", endColor: "red", fontSize: "12px"}
+        // markers: {startColor: "green", endColor: "red", fontSize: "12px"}
     }, duration: 1, width: '45%', y: '0%'}
     )
     },[]);
