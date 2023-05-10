@@ -32,7 +32,7 @@ function NewLoading() {
   return (
     <div className='newloading'>
         <div className='something'>
-            <img src={glossier} alt="just mangos..." className='something'/>
+            <img src={glossier} alt="just mangos..." className='something'/> 
         </div>
     </div>
   )
