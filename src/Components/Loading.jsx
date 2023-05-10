@@ -8,10 +8,6 @@ import { Power2 } from 'gsap/gsap-core';
 
 function Loading() {
     gsap.registerPlugin(ScrollTrigger);
-    function logoChange() {
-        gsap.to('.fr-logo', {duration: 1, width: '20%' });
-
-    }
     React.useEffect(() => {
         gsap.registerPlugin(ScrollTrigger);
         gsap.to('.fr-logo', { scrollTrigger: {
@@ -21,8 +17,7 @@ function Loading() {
         scrub: true, 
         markers: {startColor: "green", endColor: "red", fontSize: "12px"}
         }, 
-        // onComplete: logoChange
-        duration: 3, width: '15%', y: 300, ease: Power2.easeInOut
+        duration: 3, width: '25%', y: 300, ease: Power2.easeInOut
     });
     },[]);
   return (
