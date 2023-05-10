@@ -26,7 +26,7 @@ function Header() {
     <div className='header'>
       <div className='header-left'>
           <div className='header-logo'>
-            <img src={logo} alt='logo' className='logo'/>
+            {/* <img src={logo} alt='logo' className='logo'/> */}
           </div>
         </div>
         <div className='header-right'>
