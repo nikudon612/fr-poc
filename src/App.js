@@ -5,12 +5,14 @@ import Panel1 from './Components/Panel1';
 import Panel2 from './Components/Panel2';
 import Panel3 from './Components/Panel3';
 import Panel4 from './Components/Panel4';
+import Loading from './Components/Loading'
 
 
 
 function App() {
   return (
     <div className="App">
+      <Loading />
       <Header />
       <Hero />
       <Panel1 />

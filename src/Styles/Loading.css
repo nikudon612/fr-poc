@@ -1,0 +1,14 @@
+.loading {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+.glossier {
+    width: 100vw;
+}
+.fr-logo {
+    position: absolute;
+    width: 85%;
+    top: 650px;
+    left: 65px;
+}

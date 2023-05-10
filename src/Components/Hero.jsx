@@ -10,7 +10,6 @@ import '@splidejs/react-splide/css';
 
 function Hero() {
     gsap.registerPlugin(ScrollToPlugin);
-
     function click() {
         gsap.to(window, {duration: 1.25, scrollTo: {y: ".panel1", offsetY: 100}});
     }
@@ -37,15 +36,21 @@ function Hero() {
         </div>
         <div className='hero-right'>
             <div className='hero-image'>
-                <Splide>
+                {/* <Splide options={{
+                    type: 'loop',
+                    autoplay: true,
+                    interval: 3000,
+                    speed: 750,
+                    pagination: false, 
+                }}>
                     <SplideSlide>
-                         <img src={mango} alt='image1' className=''/>
+                         <img src={mango} alt='image1' className='slideImage'/>
                     </SplideSlide>
                     <SplideSlide>
-                        <img src={yellow} alt='image2'/>
+                        <img src={yellow} alt='image2' className='slideImage'/>
                     </SplideSlide>
-                </Splide>
-                {/* <img src={mango} alt='hero' className='hero-image'/> */}
+                </Splide> */}
+                <img src={mango} alt='hero' className='hero-image'/>
             </div>
         </div>
     </div>
