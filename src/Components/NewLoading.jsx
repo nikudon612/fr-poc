@@ -3,6 +3,7 @@ import '../Styles/NewLoading.css'
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/all';
 import frlogo from '../Assets/Forerunner_Wordmark_White.png'
+import glossier from '../Assets/glossier.png'
 
 
 
@@ -25,21 +26,14 @@ function NewLoading() {
         end: "bottom top",
         scrub: 1,
         markers: {startColor: "green", endColor: "red", fontSize: "12px"}
-    }, duration: 1, width: '25%', y: '0%'}
+    }, duration: 1, width: '45%', y: '0%'}
     )
     },[]);
   return (
     <div className='newloading'>
-        <div className='top'></div>
-        {/* <div className='nav'>
-        <div className='header'>
-      <div className='header-left'>
-          <div className='header-logo'>
-            <img src={frlogo} alt='logo' className='frlogo'/>
-          </div>
+        <div className='something'>
+            <img src={glossier} alt="just mangos..." className='something'/>
         </div>
-        </div> */}
-        {/* </div> */}
     </div>
   )
 }

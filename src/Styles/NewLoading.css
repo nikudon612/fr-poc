@@ -11,3 +11,7 @@
     left: 65px;
     z-index: 101;
 }
+.something {
+    height: 100%;
+    width: 100%;
+}
