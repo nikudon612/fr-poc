@@ -16,7 +16,7 @@
     display: flex;
 }
 
-.logo {
+.frlogo {
     padding-left: 65px;
     width: 25%;
     /* top: 700px;
@@ -35,8 +35,8 @@
 .header-links a {
     color: white;
     text-decoration: none;
-    padding-left: 80px;
-    padding-right: 80px;
+    padding-left: 60px;
+    padding-right: 60px;
     font-weight: 700;
     font-family: 'post grotesk';
 }

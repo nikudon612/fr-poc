@@ -1,7 +1,7 @@
 import React from 'react'
 import '../Styles/Header.css';
 import { gsap } from 'gsap';
-import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import { ScrollTrigger } from 'gsap/all';
 import frlogo from '../Assets/Forerunner_Wordmark_White.png'
 
 
@@ -15,6 +15,22 @@ function Header() {
   React.useEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
 
+    var tl = gsap.timeline({ scrollTrigger: { trigger: ".loading", start: 'top top', end: 'bottom bottom', markers: true } });
+    tl.fromTo(".frlogo", { width: '100%', y: -200 }, { width: '25%', y: 0 });
+
+    
+     
+  //   gsap.from('.frlogo', { scrollTrigger: {
+  //     trigger: ".loading",
+  //     start: "top top",
+  //     end: "bottom bottom",
+  //     scrub: 1,
+  //     markers: {startColor: "green", endColor: "red", fontSize: "12px"}
+  //   }
+  //   , width: '100%', y: '-90%',
+  // })
+
+      
     gsap.from('.header', { scrollTrigger: {
       trigger: ".panel1",
       start: "top 15%",
@@ -27,7 +43,7 @@ function Header() {
     <div className='header'>
       <div className='header-left'>
           <div className='header-logo'>
-            <img src={frlogo} alt='logo' className='logo'/>
+            <img src={frlogo} alt='logo' className='frlogo'/>
           </div>
         </div>
         <div className='header-right'>
