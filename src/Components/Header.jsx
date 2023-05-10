@@ -15,8 +15,8 @@ function Header() {
   React.useEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
 
-    var tl = gsap.timeline({ scrollTrigger: { trigger: ".loading", start: 'top top', end: 'bottom bottom', markers: true } });
-    tl.fromTo(".frlogo", { width: '100%', y: -200 }, { width: '25%', y: 0 });
+    // var tl = gsap.timeline({ scrollTrigger: { trigger: ".loading", start: 'top top', end: 'bottom bottom', markers: true } });
+    // tl.fromTo(".frlogo", { width: '100%', y: -250 }, { width: '25%', y: 0 });
 
     
      

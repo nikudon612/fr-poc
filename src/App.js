@@ -6,13 +6,15 @@ import Panel2 from './Components/Panel2';
 import Panel3 from './Components/Panel3';
 import Panel4 from './Components/Panel4';
 import Loading from './Components/Loading'
+import NewLoading from './Components/NewLoading';
 
 
 
 function App() {
   return (
     <div className="App">
-      <Loading />
+      <NewLoading />
+      {/* <Loading /> */}
       <Header />
       <Hero />
       <Panel1 />

@@ -9,17 +9,17 @@ import { Power2 } from 'gsap/gsap-core';
 function Loading() {
     gsap.registerPlugin(ScrollTrigger);
     
-    React.useEffect(() => {
-        gsap.from('.logo', { scrollTrigger: {
-            trigger: ".loading",
-            start: "top top",
-            end: "bottom top",
-            scrub: 1, 
-            markers: {startColor: "green", endColor: "red", fontSize: "12px"}
-            }, 
-            duration: 1, width: '100%', y: '-90%', ease: Power2.easeInOut, 
-    });
-    },[]);
+    // React.useEffect(() => {
+    //     gsap.from('.frlogo', { scrollTrigger: {
+    //         trigger: ".loading",
+    //         start: "top top",
+    //         end: "bottom top",
+    //         scrub: 1, 
+    //         markers: {startColor: "green", endColor: "red", fontSize: "12px"}
+    //         }, 
+    //         duration: 1, width: '100%', y: '-150%' 
+    // })
+    // },[]);
   return (
     <div className='loading'>
         <img src={glossier} alt="just mangos..." className='glossier'/>
