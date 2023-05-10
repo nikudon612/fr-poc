@@ -4,6 +4,7 @@ import glossier from '../Assets/glossier.png'
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/all';
 import logo from '../Assets/Forerunner_Wordmark_White.png'
+import { Power2 } from 'gsap/gsap-core';
 
 function Loading() {
     gsap.registerPlugin(ScrollTrigger);
@@ -21,7 +22,7 @@ function Loading() {
         markers: {startColor: "green", endColor: "red", fontSize: "12px"}
         }, 
         // onComplete: logoChange
-        duration: 1, width: '20%'
+        duration: 3, width: '15%', y: 300, ease: Power2.easeInOut
     });
     },[]);
   return (
