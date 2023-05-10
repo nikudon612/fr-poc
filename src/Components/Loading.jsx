@@ -3,27 +3,30 @@ import '../Styles/Loading.css'
 import glossier from '../Assets/glossier.png'
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/all';
-import logo from '../Assets/Forerunner_Wordmark_White.png'
+import frlogo from '../Assets/Forerunner_Wordmark_White.png'
 import { Power2 } from 'gsap/gsap-core';
 
 function Loading() {
     gsap.registerPlugin(ScrollTrigger);
     React.useEffect(() => {
         gsap.registerPlugin(ScrollTrigger);
-        gsap.to('.fr-logo', { scrollTrigger: {
+        gsap.from('.logo', { scrollTrigger: {
         trigger: ".loading",
         start: "top top",
-        end: "bottom center",
-        scrub: true, 
+        end: "bottom top",
+        scrub: 1, 
         markers: {startColor: "green", endColor: "red", fontSize: "12px"}
         }, 
-        duration: 3, width: '25%', y: 300, ease: Power2.easeInOut
+        duration: 1, width: '100%', y: '-90%', ease: Power2.easeInOut, 
+        // onComplete: function() {
+        //     gsap.fromTo('.fr-logo', {position: "absolute"}, {position: "fixed", top: "50%", left: "50%", x: "-50%", y: "-50%"})
+        // }
     });
     },[]);
   return (
     <div className='loading'>
         <img src={glossier} alt="just mangos..." className='glossier'/>
-        <img src={logo} alt="just mangos..." className='fr-logo'/>
+        {/* <img src={frlogo} alt="just mangos..." className='fr-logo'/> */}
     </div>
   )
 }

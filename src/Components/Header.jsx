@@ -1,8 +1,9 @@
 import React from 'react'
 import '../Styles/Header.css';
-import logo from '../Assets/Vector.png';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import frlogo from '../Assets/Forerunner_Wordmark_White.png'
+
 
 function Header() {
   function changeHeader() {
@@ -26,7 +27,7 @@ function Header() {
     <div className='header'>
       <div className='header-left'>
           <div className='header-logo'>
-            {/* <img src={logo} alt='logo' className='logo'/> */}
+            <img src={frlogo} alt='logo' className='logo'/>
           </div>
         </div>
         <div className='header-right'>
