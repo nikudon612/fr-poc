@@ -32,6 +32,12 @@
     font-weight: 400;
     font-family: post grotesk light; 
     margin-top: 15px;
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+}
+.footer-sub:hover {
+    color: white;
 }
 
 .footer-bottom {

@@ -9,28 +9,28 @@ function Footer() {
         <div className='footer-top'>
             <div className='footer-section'>
                 <div className='footer-title'>GET TO KNOW US</div>
-                <div className='footer-sub'>Our Team</div>
-                <div className='footer-sub'>Companies</div>
-                <div className='footer-sub'>FAQ</div>
+                <a className='footer-sub'>Our Team</a>
+                <a className='footer-sub'>Companies</a>
+                <a className='footer-sub'>FAQ</a>
             </div>
             <div className='footer-section'>
                 <div className='footer-title'>CONTACT US</div>
-                <div className='footer-sub'>Investment Inquiries</div>
-                <div className='footer-sub'>Media Inquiries</div>
-                <div className='footer-sub'>General Inquiries</div>
+                <a className='footer-sub'>Investment Inquiries</a>
+                <a className='footer-sub'>Media Inquiries</a>
+                <a className='footer-sub'>General Inquiries</a>
             </div>
             <div className='footer-section'>
                 <div className='footer-title'>CAREERS</div>
-                <div className='footer-sub'>Open Portfolio Roles</div>
+                <a className='footer-sub'>Open Portfolio Roles</a>
             </div>
             <div className='footer-section'>
             <div className='footer-title'>LOGIN</div>
-            <div className='footer-sub'>LP Login</div>
+            <a className='footer-sub'>LP Login</a>
             </div>
             <div className='footer-section'>
             <div className='footer-title'>LEGAL</div>
-            <div className='footer-sub'>Privacy Policy</div>
-            <div className='footer-sub'>Cookie Preferences</div>
+            <a className='footer-sub'>Privacy Policy</a>
+            <a className='footer-sub'>Cookie Preferences</a>
             </div>
         </div>
         <img src={line} className='footer-line'/>
