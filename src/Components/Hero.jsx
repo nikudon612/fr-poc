@@ -58,9 +58,9 @@ function Hero() {
                     <span className='Culture'>Culture</span>
                 </div> 
             </div>
-            <a href='#' id='hero-button' onClick={click}>
+            {/* <a href='#' id='hero-button' onClick={click}>
                 Next
-            </a>
+            </a> */}
         </div>
         <div className='hero-right'>
             <div className='hero-image'>

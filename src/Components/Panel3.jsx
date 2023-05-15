@@ -42,7 +42,7 @@ const Panel3 = () => {
                     <li className='list-text'>Massive demographic shifts are fueling emerging needs.</li>
                 </div>
             </div>
-            <a id='panel3-next' onClick={click4}>Next</a>
+            {/* <a id='panel3-next' onClick={click4}>Next</a> */}
         </div>
         <div className='panel3-right'>
             <img src={phone} className='panel3-image' />

@@ -2,7 +2,7 @@ import React from 'react'
 import '../Styles/Header.css';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/all';
-import frlogo from '../Assets/Forerunner_Wordmark_White.png'
+import frlogo from '../Assets/Vector.png'
 
 
 function Header() {

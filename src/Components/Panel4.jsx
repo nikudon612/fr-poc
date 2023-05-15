@@ -37,7 +37,7 @@ const Panel4 = () => {
         </div>
         <div className='panel4-bottom'>
             <img src={Man} onClick={click5} className='panel4-image'/>
-            <a id='panel4-button' onClick={click5}>Next</a>
+            {/* <a id='panel4-button' onClick={click5}>Next</a> */}
         </div>
     </div>
   )

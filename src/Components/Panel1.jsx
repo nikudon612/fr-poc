@@ -40,9 +40,9 @@ const Panel1 = () => {
         </div>
         <div className='panel1-bottom'>
             <img src={Rectangle7} alt='panel1' className='panel1-image'/>
-            <a id='panel1-hero-button' onClick={click2}>
+            {/* <a id='panel1-hero-button' onClick={click2}>
                  Next
-            </a>
+            </a> */}
         </div>
         
     </div>

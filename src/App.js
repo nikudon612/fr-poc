@@ -13,8 +13,7 @@ import NewLoading from './Components/NewLoading';
 function App() {
   return (
     <div className="App">
-      <NewLoading />
-      {/* <Loading /> */}
+      {/* <NewLoading /> */}
       <Header />
       <Hero />
       <Panel1 />
