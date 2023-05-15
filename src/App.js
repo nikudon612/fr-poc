@@ -7,6 +7,8 @@ import Panel3 from './Components/Panel3';
 import Panel4 from './Components/Panel4';
 import Loading from './Components/Loading'
 import NewLoading from './Components/NewLoading';
+import Advantage from './Components/Advantage';
+import Points from './Components/Points';
 
 
 
@@ -20,6 +22,8 @@ function App() {
       <Panel2 />
       <Panel3 />
       <Panel4 />
+      <Advantage />
+      <Points />  
     </div>
   );
 }

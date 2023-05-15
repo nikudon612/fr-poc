@@ -1,0 +1,72 @@
+.points {
+    height: 90vh;
+    width: 100vw;
+    background-color: #001633;
+    color: white;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.points-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 33%;
+}
+.points-top-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.points-middle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 33%;
+}
+.points-middle-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.points-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 33%;
+}
+.points-bottom-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.points-line {
+    width: 50%;
+}
+.points-text-title {
+    font-family: voyage;
+    font-size: 100px;
+}
+.points-text-sub {
+    font-family: post grotesk light;
+    font-size: 20px;
+    font-weight: 200;
+    width: 65%;
+}
+
+.left-margin {
+    margin-left: 3%;
+    text-align: left;
+}
+.right-margin {
+    margin-right: 3%;
+}
+
+.pad-right {
+    padding-right: 5%;
+}
+.pad-left {
+    padding-left: 5%;
+}
