@@ -1,0 +1,40 @@
+.footer {
+    height: 50vh;
+    width: 100vw;
+    background-color: #001633;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.footer-top {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    height: 70%;
+}
+.footer-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.footer-title {
+    font-family: post grotesk;
+    font-size: 16px;
+    font-weight: 700;
+}
+.footer-sub {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: post grotesk light; 
+}
+
+.footer-bottom {
+    display: flex;
+    align-items: center;
+}
+.footer-sub-text {
+    font-size: 20px;
+    font-family: post grotesk light;
+}

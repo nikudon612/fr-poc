@@ -9,6 +9,7 @@ import Loading from './Components/Loading'
 import NewLoading from './Components/NewLoading';
 import Advantage from './Components/Advantage';
 import Points from './Components/Points';
+import Footer from './Components/Footer';
 
 
 
@@ -24,6 +25,7 @@ function App() {
       <Panel4 />
       <Advantage />
       <Points />  
+      <Footer />
     </div>
   );
 }
