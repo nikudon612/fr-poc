@@ -20,8 +20,11 @@ function Persepctives() {
             <Splide className='pers-slider' >
                 <SplideSlide className='pers-slide'>
                     <img className='pers-image'src={image}/>
-                    <div>INSIGHTS</div>
-                    <div>The Crumbling Infrastructure of the Web</div>
+                    <div className='slide-text'>
+                    <div className='slide-type'>INSIGHTS</div>
+                    <div className='slide-sub'>The Crumbling Infrastructure of the Web</div>
+                    </div>
+                    
                 </SplideSlide>
                 <SplideSlide>
                 <img className='pers-image' src={image}/>
