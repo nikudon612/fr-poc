@@ -13,11 +13,14 @@
     align-items: flex-start;
     justify-content: space-evenly;
     height: 70%;
+    margin-top: 60px;
 }
 .footer-section {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    margin-right: 261px;
+    margin-left: 70px;
 }
 .footer-title {
     font-family: post grotesk;
@@ -28,13 +31,21 @@
     font-size: 16px;
     font-weight: 400;
     font-family: post grotesk light; 
+    margin-top: 15px;
 }
 
 .footer-bottom {
+    height: 200px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 .footer-sub-text {
     font-size: 20px;
     font-family: post grotesk light;
+}
+.footer-line {
+    width: 90%;
+    margin-left: 65px;
+    margin-right: 65px;
 }

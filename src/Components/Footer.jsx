@@ -10,33 +10,33 @@ function Footer() {
             <div className='footer-section'>
                 <div className='footer-title'>GET TO KNOW US</div>
                 <div className='footer-sub'>Our Team</div>
-                <div>Companies</div>
-                <div>FAQ</div>
+                <div className='footer-sub'>Companies</div>
+                <div className='footer-sub'>FAQ</div>
             </div>
             <div className='footer-section'>
-                <div className='footer-title'>Contact US</div>
-                <div>Investment Inquiries</div>
-                <div>Media Inquiries</div>
-                <div>General Inquiries</div>
+                <div className='footer-title'>CONTACT US</div>
+                <div className='footer-sub'>Investment Inquiries</div>
+                <div className='footer-sub'>Media Inquiries</div>
+                <div className='footer-sub'>General Inquiries</div>
             </div>
             <div className='footer-section'>
-                <div className='footer-title'>Careers</div>
-                <div>Open Portfolio Roles</div>
+                <div className='footer-title'>CAREERS</div>
+                <div className='footer-sub'>Open Portfolio Roles</div>
             </div>
             <div className='footer-section'>
-            <div className='footer-title'>Login</div>
-            <div>LP Login</div>
+            <div className='footer-title'>LOGIN</div>
+            <div className='footer-sub'>LP Login</div>
             </div>
             <div className='footer-section'>
-            <div className='footer-title'>Legal</div>
-            <div>Privacy Policy</div>
-            <div>Cookie Preferences</div>
+            <div className='footer-title'>LEGAL</div>
+            <div className='footer-sub'>Privacy Policy</div>
+            <div className='footer-sub'>Cookie Preferences</div>
             </div>
         </div>
+        <img src={line} className='footer-line'/>
         <div className='footer-bottom'>
-            {/* <img src={line}/> */}
-            <img src={frlogo}/>
-            <div className='footer-sub-text'>@2023 Forerunner Ventures. All rights reserved.</div>
+            <img src={frlogo} className='left-margin'/>
+            <div className='footer-sub-text right-margin'>@2023 Forerunner Ventures. All rights reserved.</div>
         </div>
     </div>
   )
