@@ -25,16 +25,22 @@ function Persepctives() {
                     <div className='slide-sub'>The Crumbling Infrastructure of the Web</div>
                     </div>
                     
-                </SplideSlide>
-                <SplideSlide>
+                </SplideSlide >
+                <SplideSlide className='pers-slide'>
                 <img className='pers-image' src={image}/>
-                    <div>THESIS</div>
-                    <div>The Future Forerunners; Fund VI $1B</div>                
+                    <div className='slide-text'>
+                    <div className='slide-type'>THESIS</div>
+                    <div className='slide-sub'>The Future Forerunners; Fund VI $1B</div> 
+                    </div>
+                                   
                     </SplideSlide>
-                <SplideSlide>
+                <SplideSlide className='pers-slide'>
                 <img className='pers-image' src={image}/>
-                    <div>PORTFOLIO</div>
-                    <div>Glossier Gets A Makover</div>                
+                    <div className='slide-text'>
+                    <div className='slide-type'>PORTFOLIO</div>
+                    <div className='slide-sub'>Glossier Gets A Makover</div> 
+                    </div>
+                                   
                     </SplideSlide>
             </Splide>
         </div>
