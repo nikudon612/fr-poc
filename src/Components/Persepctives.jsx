@@ -10,11 +10,13 @@ function Persepctives() {
                 <div className='pers-sub'>In the connected world, nothing happens in a vaccum. 
                 <br/>The future is already written in today's news - if you know where to look.</div>
             </div>
-            <button className='pers-button'></button>
+            <button className='pers-button'>View all</button>
         </div>
         <div className='perspectives-bottom'>
-            <div>
-
+            <div className='pers-slider'>
+                <div className='pers-slide'></div>
+                <div className='pers-slide'></div>
+                <div className='pers-slide'></div>
             </div>
         </div>
     </div>

@@ -1,5 +1,5 @@
 .points {
-    height: 90vh;
+    height: 100vh;
     width: 100vw;
     background-color: #001633;
     color: white;
@@ -13,6 +13,8 @@
     align-items: center;
     justify-content: center;
     height: 33%;
+    margin-top: 50px;
+
 }
 .points-top-text {
     display: flex;
@@ -35,6 +37,8 @@
     align-items: center;
     justify-content: center;
     height: 33%;
+    margin-bottom: 70px;
+
 }
 .points-bottom-text {
     display: flex;
