@@ -7,7 +7,7 @@
     align-items: center;
     margin: 0px;
     padding: 0;
-    border-bottom: 1px solid #D0D3DA;
+    /* border-bottom: 1px solid #D0D3DA; */
     z-index: 100;
     justify-content: space-between;
 }
@@ -36,12 +36,12 @@
     font-weight: 700;
     font-family: 'post grotesk';
 }
-.line {
+/* .line {
     color: #D0D3DA;
     height: 2px;
     padding-bottom: 30px;
     padding-top: 30px;
-}
+} */
 .header-left {
     display: flex;
     width: 50%;
@@ -64,4 +64,9 @@
 #link :hover{
     text-decoration: none !important;
 }
-
+.theLine {
+    position: absolute;
+    top: 98px;
+    left: 100px;
+    width: 90%;
+}

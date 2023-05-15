@@ -3,6 +3,7 @@ import '../Styles/Header.css';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/all';
 import frlogo from '../Assets/Vector.png'
+import line from '../Assets/Line.png'
 
 
 function Header() {
@@ -14,23 +15,6 @@ function Header() {
   }
   React.useEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
-
-    // var tl = gsap.timeline({ scrollTrigger: { trigger: ".loading", start: 'top top', end: 'bottom bottom', markers: true } });
-    // tl.fromTo(".frlogo", { width: '100%', y: -250 }, { width: '25%', y: 0 });
-
-    
-     
-  //   gsap.from('.frlogo', { scrollTrigger: {
-  //     trigger: ".loading",
-  //     start: "top top",
-  //     end: "bottom bottom",
-  //     scrub: 1,
-  //     markers: {startColor: "green", endColor: "red", fontSize: "12px"}
-  //   }
-  //   , width: '100%', y: '-90%',
-  // })
-
-      
     gsap.from('.header', { scrollTrigger: {
       trigger: ".panel1",
       start: "top 15%",
@@ -54,7 +38,7 @@ function Header() {
             <a href='#' id="link">Platforms</a>
           </div>
         </div>
-        
+        <img src={line} className='theLine' />
     </div>
   )
 }
