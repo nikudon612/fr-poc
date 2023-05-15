@@ -42,7 +42,28 @@ font-weight: 700;
 }
 .perspectives-bottom {
     height: 50vh;
-    background-color: lightgray;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    /* background-color: lightgray; */
+    margin-top: 100px;
+    /* margin-bottom: 50px; */
+}
+.pers-slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pers-slide {
+    color: black;
+    height: 350px;
+    width: 425px !important;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+}
+.pers-image {
+    width: 425px;
+    height: 425px;
+}
+.splide_list {
+    align-items: center !important;
 }

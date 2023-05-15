@@ -1,5 +1,9 @@
 import React from 'react'
 import '../Styles/Perspectives.css'
+import { Splide, SplideSlide } from '@splidejs/react-splide';
+import '@splidejs/react-splide/css';
+import image from '../Assets/glossier.png'
+
 
 function Persepctives() {
   return (
@@ -13,11 +17,23 @@ function Persepctives() {
             <button className='pers-button'>View all</button>
         </div>
         <div className='perspectives-bottom'>
-            <div className='pers-slider'>
-                <div className='pers-slide'></div>
-                <div className='pers-slide'></div>
-                <div className='pers-slide'></div>
-            </div>
+            <Splide className='pers-slider' >
+                <SplideSlide className='pers-slide'>
+                    <img className='pers-image'src={image}/>
+                    <div>INSIGHTS</div>
+                    <div>The Crumbling Infrastructure of the Web</div>
+                </SplideSlide>
+                <SplideSlide>
+                <img className='pers-image' src={image}/>
+                    <div>THESIS</div>
+                    <div>The Future Forerunners; Fund VI $1B</div>                
+                    </SplideSlide>
+                <SplideSlide>
+                <img className='pers-image' src={image}/>
+                    <div>PORTFOLIO</div>
+                    <div>Glossier Gets A Makover</div>                
+                    </SplideSlide>
+            </Splide>
         </div>
     </div>
   )
