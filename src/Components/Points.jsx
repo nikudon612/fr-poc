@@ -18,7 +18,7 @@ function Points() {
         <div className='points-middle-text left-margin'>
 
                 <div className='points-text-title'>Thesis-driven</div>
-                <div className='points-text-sub'>We leverage our research to uncover outsized business prospects and invest in the teams best positioned to meet them, including category-drefining companies liek Faire, Chime, Glossier, Hims&Hers, OURA, The Farmer's Dog, and more.</div>
+                <div className='points-text-sub'>We leverage our research to uncover outsized business prospects and invest in the teams best positioned to meet them, including category-drefining companies like Faire, Chime, Glossier, Hims&Hers, OURA, The Farmer's Dog, and more.</div>
             </div>
         </div>
         <div className='points-bottom'>

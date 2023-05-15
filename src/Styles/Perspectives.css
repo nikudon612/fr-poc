@@ -1,1 +1,33 @@
-.perspectives {}
+.perspectives {
+    height: 90vh;
+    width: 100vw;
+    background-color: #ffffff;
+    color: black;
+    display: flex;
+    flex-direction: column;
+}
+.perspectives-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.pers-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: voyage;
+    font-size: 100px;
+    text-align: left;
+}
+.pers-sub {
+    font-family: post grotesk light;
+    font-size: 20px;
+    font-weight: 200;
+    /* width: 65%; */
+}
+.pers-button {}
+.perspectives-bottom {
+    height: 60vh;
+    width: 100vh;
+    background-color: lightgray;
+}
