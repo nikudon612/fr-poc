@@ -3,6 +3,7 @@ import '../Styles/Panel1.css';
 import Rectangle7 from '../Assets/Rectangle7.png';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import arrow from '../Assets/arrow.png';
 
 const Panel1 = () => {
     function click2() {
@@ -44,6 +45,8 @@ const Panel1 = () => {
             {/* <a id='panel1-hero-button' onClick={click2}>
                  Next
             </a> */}
+            <div className='panel1-brandName' href="">Hims & Hers</div>
+            <img src={arrow} className='panel1-brandName panel1-arrow'/>
         </div>
         
     </div>
