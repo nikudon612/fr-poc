@@ -111,3 +111,7 @@ font-weight: 700;
 .splide__arrow--prev {
     left: -2.5em;
 }
+.splide__arrow {
+    background: none;
+    
+}
