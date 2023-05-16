@@ -11,6 +11,7 @@ import Advantage from './Components/Advantage';
 import Points from './Components/Points';
 import Persepctives from './Components/Persepctives';
 import Footer from './Components/Footer';
+import LoadingScreen from './Components/LoadingScreen';
 
 
 
@@ -18,6 +19,7 @@ function App() {
   return (
     <div className="App">
       {/* <NewLoading /> */}
+      <LoadingScreen />
       <Header />
       <Hero />
       <Panel1 />

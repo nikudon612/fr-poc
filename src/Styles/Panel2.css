@@ -1,5 +1,6 @@
 .panel2 {
     height: 95vh;
+    width: 100vw;
     background-color: #F4F4F4;
     display: flex;
     /* padding-top: 100px; */

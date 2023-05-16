@@ -1,6 +1,6 @@
 .panel4 {
     height: 90vh;
-    width: 100%;
+    width: 100vw;
     display: flex;
     background-color: #001633;
     flex-direction: column;

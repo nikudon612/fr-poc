@@ -1,5 +1,6 @@
 .panel1 {
     height: 90vh;
+    width: 100vw;
     background-color: #F4F4F4;
 }
 .panel1-top {
@@ -40,7 +41,7 @@
 }
 
 .panel1-bottom {
-    width: 99vw;
+    width: 100vw;
     height: 55vh;
 }
 .panel1-image {

@@ -1,7 +1,8 @@
 .hero {
     height: 100vh;
+    width: 100vw;
     background-color: #001633;
-    top: -101px;
+    top: -100px;
     display: flex;
     position: relative;
     margin-bottom: -101px;
