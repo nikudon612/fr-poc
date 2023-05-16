@@ -30,6 +30,7 @@ function Hero() {
     start: "-100% top",
     end: "30% top",
     scrub: 0.8,
+    // markers: {startColor: "green", endColor: "red", fontSize: "12px"}
 }, duration: 1, y: -50, opacity: 1}
 )
     }, []);

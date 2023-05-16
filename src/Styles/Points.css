@@ -26,6 +26,8 @@
     align-items: center;
     justify-content: center;
     height: 33%;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 .points-middle-text {
     display: flex;

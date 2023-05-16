@@ -1,5 +1,6 @@
 import React from 'react'
 import '../Styles/Advantage.css'
+import frlogo from '../Assets/Forerunner_Wordmark_White.png'
 
 function Advantage() {
   return (
@@ -7,7 +8,7 @@ function Advantage() {
         <div className='advantage-top'>
             <div className='advantage-top-half'>
                 <div className='advantage-text'>
-                    FORERUNNER
+                    <img src={frlogo} className='advantage-logo'/>
                     <div className='advantage-text-sub'>
                         Advantage
                     </div>
