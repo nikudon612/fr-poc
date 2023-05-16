@@ -47,7 +47,8 @@
 }
 
 .points-line {
-    width: 50%;
+    width: 47%;
+    margin-bottom: 100px;
 }
 .points-text-title {
     font-family: voyage;
@@ -57,20 +58,24 @@
     font-family: post grotesk light;
     font-size: 20px;
     font-weight: 200;
-    width: 65%;
+    width: 80%;
 }
 
 .left-margin {
-    margin-left: 3%;
+    margin-left: 4%;
     text-align: left;
 }
 .right-margin {
-    margin-right: 3%;
+    margin-right: 4%;
 }
 
 .pad-right {
-    padding-right: 5%;
+    padding-right: 7%;
 }
 .pad-left {
-    padding-left: 5%;
+    padding-left: 7%;
+}
+
+.right-side {
+    /* margin-left: 20px; */
 }

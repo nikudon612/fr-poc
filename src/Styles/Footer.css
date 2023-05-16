@@ -11,16 +11,18 @@
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    justify-content: space-evenly;
+    justify-content: space-between;
     height: 70%;
     margin-top: 60px;
+    margin-left: 4%;
+    margin-right: 4%;
 }
 .footer-section {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin-right: 261px;
-    margin-left: 70px;
+    /* margin-right: 261px;
+    margin-left: 70px; */
 }
 .footer-title {
     font-family: post grotesk;

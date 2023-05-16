@@ -1,6 +1,7 @@
 .header{
     height: 100px;
     position: sticky;
+    width: 100vw;
     top: 0 !important;
     display: flex;
     flex-direction: row;
@@ -66,7 +67,7 @@
 }
 .theLine {
     position: absolute;
-    top: 98px;
-    left: 100px;
+    top: 100px;
+    left: 60px;
     width: 90%;
 }

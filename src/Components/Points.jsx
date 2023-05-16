@@ -10,7 +10,7 @@ function Points() {
                 <div className='points-text-title'>Research-focused</div>
                 <div className='points-text-sub'>We commit ourselves to having a constant pulse on what people are doing and why. This requires both IQ and EQ - data-driven analysis combined with an intimate understanding of peoples' lives, behaviors, and emotions.</div>
             </div>
-            <img src={line} className='points-line pad-right'/>
+            <img src={line} className='points-line pad-right right-side'/>
         </div>
         <div className='points-middle'>
         <img src={line} className='points-line pad-left'/>
