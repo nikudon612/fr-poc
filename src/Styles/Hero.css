@@ -100,3 +100,17 @@ a :hover{
     width: 100%;
     margin-bottom: -260px;
   }
+
+  .brandName {
+    position: absolute;
+    font-family: post grotesk light;
+    font-size: 20px;
+    color: #001633;
+    bottom: 50px;
+    right: 100px;
+  }
+
+  .arrow {
+    right: 80px;
+    bottom: 55px;
+  }

@@ -7,6 +7,7 @@ import { ScrollTrigger } from 'gsap/all';
 import { ScrollToPlugin } from 'gsap/ScrollToPlugin';
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/react-splide/css';
+import arrow from '../Assets/arrow.png'
 
 
 function Hero() {
@@ -68,6 +69,8 @@ function Hero() {
                     </SplideSlide>
                 </Splide> */}
                 <img src={mango} alt='hero' className='hero-image'/>
+                <div className='brandName' href="">Glossier</div>
+                <img src={arrow} className='brandName arrow'/>
             </div>
         </div>
     </div>
