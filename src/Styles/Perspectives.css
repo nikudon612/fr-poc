@@ -59,6 +59,10 @@ font-weight: 700;
     margin-left: 40px;
     margin-right: 40px;
 }
+
+.pers-slide:hover {
+    cursor: pointer;
+}
 .pers-image {
     width: 350px;
     height: 300px;
@@ -95,5 +99,5 @@ font-weight: 700;
 }
 
 .mask {
-    background-image: linear-gradient(to right, #ffffff, #f1f1f1, #ffffff)
+    /* background-image: linear-gradient(to right, #ffffff, #f1f1f1, #ffffff) */
 }

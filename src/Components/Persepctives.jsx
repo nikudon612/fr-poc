@@ -18,12 +18,12 @@ function Persepctives() {
         </div>
         <div className='perspectives-bottom mask'>
             {/* <div className='mask'></div> */}
-            <Splide className='pers-slider' options={{
+            <Splide className='pers-slider right-margin left-margin' options={{
                 pagination: false,
                 perPage: 3,
             }}
              >
-                <SplideSlide className='pers-slide'>
+                <SplideSlide className='pers-slide left-margin'>
                     <img className='pers-image'src={image}/>
                     <div className='slide-text'>
                     <div className='slide-type'>INSIGHTS</div>
@@ -55,7 +55,7 @@ function Persepctives() {
                     </div>
                                    
                     </SplideSlide>
-                <SplideSlide className='pers-slide'>
+                <SplideSlide className='pers-slide '>
                 <img className='pers-image' src={image}/>
                     <div className='slide-text'>
                     <div className='slide-type'>PORTFOLIO</div>

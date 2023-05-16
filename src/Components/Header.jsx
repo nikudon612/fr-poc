@@ -16,12 +16,13 @@ function Header() {
   React.useEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
     gsap.from('.header', { scrollTrigger: {
-      trigger: ".panel1",
-      start: "top 15%",
+      trigger: ".hero",
+      start: "bottom 150px",
       end: "bottom bottom",
+      offset: 100,
       scrub: true,
     },
-    onComplete: changeHeader})
+    onUpdate: changeHeader, onReverseComplete: changeHeader2})
   },[]);
   return (
     <div className='header'>

@@ -19,7 +19,7 @@ function App() {
   return (
     <div className="App">
       {/* <NewLoading /> */}
-      <LoadingScreen />
+      {/* <LoadingScreen /> */}
       <Header />
       <Hero />
       <Panel1 />

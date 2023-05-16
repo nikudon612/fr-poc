@@ -24,6 +24,7 @@ const Panel1 = () => {
         // markers: {startColor: "green", endColor: "red", fontSize: "12px"}
         }, 
         onComplete: fadeIn});
+
     },[]);
   return (
     <div className='panel1'>
