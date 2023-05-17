@@ -2,12 +2,20 @@ import React from 'react'
 import '../Styles/Footer.css'
 import frlogo from '../Assets/Vector.png'
 import line from '../Assets/Line.png'
+import carrot from '../Assets/carrot.png'
 
 function Footer() {
   return (
     <div className='footer'>
         <div className='footer-upper'>
-            <a className='footer-newsletter left-margin' href="#">Subscribe to our Newsletter >></a>
+            <div className='footer-upper-sub'>
+                <a className='footer-newsletter left-margin' href="#">Subscribe to our Newsletter</a>
+                <div className='footer-carrot'>
+                    <img  src={carrot} />
+                    <img  src={carrot} />
+                </div>
+                
+            </div>
             <div className='footer-sub under-news left-margin'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
         </div>
         <div className='footer-top'>

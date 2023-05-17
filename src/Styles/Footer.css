@@ -73,3 +73,12 @@
     text-align: left;
     margin-top: -5px;
 }
+
+.footer-upper-sub {
+    display: flex;
+    align-items: center;
+    justify-content: flex
+}
+.footer-carrot {
+    margin-left: 10px;
+}
