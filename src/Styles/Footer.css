@@ -59,12 +59,15 @@
 }
 .footer-upper {
     margin-top: 50px;
+    text-align: left;
 }
 .footer-newsletter {
-    text-align: left;
+    text-align: left !important;
     font-family: span;
     font-size: 45px;
     font-weight: 400;
+    text-decoration: none !important;
+    color: white !important;
 }
 .under-news {
     text-align: left;

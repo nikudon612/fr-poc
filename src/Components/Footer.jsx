@@ -7,7 +7,7 @@ function Footer() {
   return (
     <div className='footer'>
         <div className='footer-upper'>
-            <div className='footer-newsletter left-margin'>Subscribe to our Newsletter</div>
+            <a className='footer-newsletter left-margin' href="#">Subscribe to our Newsletter >></a>
             <div className='footer-sub under-news left-margin'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
         </div>
         <div className='footer-top'>
