@@ -74,12 +74,12 @@
     position: absolute;
     font-family: post grotesk;
     font-size: 20px;
-    bottom: -382%;
-    color: #D1EF59;
-    right: 3%;
+    bottom: -385%;
+    color: white;
+    left: 4.25%;
  }
  
  .panel4-arrow {
-    right: 1%;
-    bottom: -381.5%;
+    bottom: -384.25%;
+    left: 14.5%;
  }
