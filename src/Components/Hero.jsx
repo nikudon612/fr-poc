@@ -55,20 +55,6 @@ function Hero() {
         </div>
         <div className='hero-right'>
             <div className='hero-image'>
-                {/* <Splide options={{
-                    type: 'loop',
-                    autoplay: true,
-                    interval: 3000,
-                    speed: 750,
-                    pagination: false, 
-                }}>
-                    <SplideSlide>
-                         <img src={mango} alt='image1' className='slideImage'/>
-                    </SplideSlide>
-                    <SplideSlide>
-                        <img src={yellow} alt='image2' className='slideImage'/>
-                    </SplideSlide>
-                </Splide> */}
                 <img src={makeup} alt='hero' className='hero-image'/>
                 <div className='brandName' href="">Glossier</div>
                 <img src={arrow} className='brandName arrow'/>
