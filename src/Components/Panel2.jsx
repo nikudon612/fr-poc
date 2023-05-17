@@ -4,6 +4,8 @@ import cc from '../Assets/cc.png'
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import arrow from '../Assets/arrow.png'
+import line from '../Assets/Line.png';
+
 
 const Panel2 = () => {
     function click3() {
@@ -38,7 +40,7 @@ const Panel2 = () => {
                     <p className='bold-text'>The need and potential is clear,</p>
                     <p className='italic-text'>and the opportunities are massive.</p>
                 </div>
-                <div className="line">-------------------------------------------------------------------------------</div>
+                <img src={line} className='line'/>
                 <div className='panel2-lower-text'>
                     <li className='list-text'>Evolved attitudes and social norms are shaping demands.</li>
                     <li className='list-text'>Antiquated and fragile systems are begging for reinvention.</li>

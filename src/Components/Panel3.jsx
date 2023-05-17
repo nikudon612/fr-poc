@@ -3,6 +3,7 @@ import '../Styles/Panel3.css';
 import { gsap } from 'gsap';
 import phone from '../Assets/phone.png';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import line from '../Assets/Line.png';
 
 
 const Panel3 = () => {
@@ -35,7 +36,7 @@ const Panel3 = () => {
                     <p className='bold-text'>The need and potential is clear,</p>
                     <p className='italic-text'>and the opportunities are massive.</p>
                 </div>
-                <div className="line">-------------------------------------------------------------------------------</div>
+                <img src={line} className='line'/>
                 <div className='panel3-lower-text'>
                     <li className='list-text'>Evolved attitudes and social norms are shaping demands.</li>
                     <li className='list-text'>Antiquated and fragile systems are begging for reinvention.</li>
