@@ -1,35 +1,31 @@
 import './App.css';
-import Header from './Components/Header';
-import Hero from './Components/Hero';
-import Panel1 from './Components/Panel1';
-import Panel2 from './Components/Panel2';
-import Panel3 from './Components/Panel3';
-import Panel4 from './Components/Panel4';
-import Loading from './Components/Loading'
-import NewLoading from './Components/NewLoading';
-import Advantage from './Components/Advantage';
-import Points from './Components/Points';
-import Persepctives from './Components/Persepctives';
+import Homepage from './Components/Homepage';
 import Footer from './Components/Footer';
 import LoadingScreen from './Components/LoadingScreen';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Companies from './Components/Companies';
+import Team from './Components/Team';
+import PerspectivesPage from './Components/PerspectivesPage';
+import Platforms from './Components/Platforms';
+
 
 
 
 function App() {
   return (
     <div className="App">
-      {/* <NewLoading /> */}
-      {/* <LoadingScreen /> */}
-      <Header />
-      <Hero />
-      <Panel1 />
-      <Panel2 />
-      <Panel3 />
-      <Panel4 />
-      <Advantage />
-      <Points />  
-      <Persepctives />
-      <Footer />
+      <BrowserRouter>
+        <Routes>
+          {/* <LoadingScreen /> */}
+          <Route path="/" element={<Homepage />} />
+          <Route index element={<Homepage />} />
+          <Route path="companies" element={<Companies />} />
+          <Route path="team" element={<Team />} />
+          <Route path="perspectives" element={<PerspectivesPage />} />
+          <Route path="platforms" element={<Platforms />} />
+        </Routes>
+        <Footer />
+        </BrowserRouter>
     </div>
   );
 }
