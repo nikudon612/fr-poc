@@ -49,7 +49,8 @@ const Panel3 = () => {
         </div>
         <div className='panel3-right'>
             <img src={phone} className='panel3-image' />
-            
+            <div className='panel3-brandName' href="">Chime</div>
+            <img src={arrow} className='panel3-brandName panel3-arrow'/>
         </div>
     </div>
     </div>
