@@ -6,6 +6,52 @@ import image from '../Assets/glossier.png'
 
 
 function Persepctives() {
+    const articleData = [
+        {
+            photo: image,
+            type: 'INSIGHTS',
+            title: 'The Crumbling Infrastructure of the Web',
+        }, 
+        {
+            photo: image,
+            type: 'THESIS',
+            title: 'The Future Forerunners; Fund VI $1B',
+        }, 
+        {
+            photo: image,
+            type: 'PORTFOLIO',
+            title: 'Glossier Gets A Makover',
+        }, 
+        {
+            photo: image,
+            type: 'PORTFOLIO',
+            title: 'Glossier Gets A Makover',
+        },
+        {
+            photo: image,
+            type: 'INSIGHTS',
+            title: 'The Crumbling Infrastructure of the Web',
+        }, 
+        {
+            photo: image,
+            type: 'THESIS',
+            title: 'The Future Forerunners; Fund VI $1B',
+        }, 
+    ]
+    const articleList = articleData.map((article) => {
+        return (
+            <SplideSlide className='pers-slide'>
+                <img className='pers-image'src={article.photo} alt=''/>
+                <div className='slide-text'>
+                <div className='slide-type'>{article.type}</div>
+                <div className='slide-sub'>{article.title}</div>
+                </div>
+                
+            </SplideSlide >
+        )
+    })
+
+
   return (
     <div className='perspectives'>
         <div className='perspectives-top'>
@@ -23,54 +69,7 @@ function Persepctives() {
                 perPage: 3,
             }}
              >
-                <SplideSlide className='pers-slide'>
-                    <img className='pers-image'src={image}/>
-                    <div className='slide-text'>
-                    <div className='slide-type'>INSIGHTS</div>
-                    <div className='slide-sub'>The Crumbling Infrastructure of the Web</div>
-                    </div>
-                    
-                </SplideSlide >
-                <SplideSlide className='pers-slide'>
-                <img className='pers-image' src={image}/>
-                    <div className='slide-text'>
-                    <div className='slide-type'>THESIS</div>
-                    <div className='slide-sub'>The Future Forerunners; Fund VI $1B</div> 
-                    </div>
-                                   
-                    </SplideSlide>
-                <SplideSlide className='pers-slide'>
-                <img className='pers-image' src={image}/>
-                    <div className='slide-text'>
-                    <div className='slide-type'>PORTFOLIO</div>
-                    <div className='slide-sub'>Glossier Gets A Makover</div> 
-                    </div>
-                                   
-                    </SplideSlide>
-                <SplideSlide className='pers-slide'>
-                <img className='pers-image' src={image}/>
-                    <div className='slide-text'>
-                    <div className='slide-type'>PORTFOLIO</div>
-                    <div className='slide-sub'>Glossier Gets A Makover</div> 
-                    </div>
-                                   
-                    </SplideSlide>
-                <SplideSlide className='pers-slide '>
-                <img className='pers-image' src={image}/>
-                    <div className='slide-text'>
-                    <div className='slide-type'>PORTFOLIO</div>
-                    <div className='slide-sub'>Glossier Gets A Makover</div> 
-                    </div>
-                                   
-                    </SplideSlide>
-                <SplideSlide className='pers-slide '>
-                <img className='pers-image' src={image}/>
-                    <div className='slide-text'>
-                    <div className='slide-type'>PORTFOLIO</div>
-                    <div className='slide-sub'>Glossier Gets A Makover</div> 
-                    </div>
-                                   
-                    </SplideSlide>
+                {articleList}
             </Splide>
         </div>
     </div>
