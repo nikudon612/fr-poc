@@ -6,6 +6,10 @@ import line from '../Assets/Line.png'
 function Footer() {
   return (
     <div className='footer'>
+        <div className='footer-upper'>
+            <div className='footer-newsletter left-margin'>Subscribe to our Newsletter</div>
+            <div className='footer-sub under-news left-margin'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+        </div>
         <div className='footer-top'>
             <div className='footer-section'>
                 <div className='footer-title'>GET TO KNOW US</div>

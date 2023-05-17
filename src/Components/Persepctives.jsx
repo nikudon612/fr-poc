@@ -63,6 +63,14 @@ function Persepctives() {
                     </div>
                                    
                     </SplideSlide>
+                <SplideSlide className='pers-slide '>
+                <img className='pers-image' src={image}/>
+                    <div className='slide-text'>
+                    <div className='slide-type'>PORTFOLIO</div>
+                    <div className='slide-sub'>Glossier Gets A Makover</div> 
+                    </div>
+                                   
+                    </SplideSlide>
             </Splide>
         </div>
     </div>

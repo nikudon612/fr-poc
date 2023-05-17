@@ -1,5 +1,5 @@
 .footer {
-    height: 50vh;
+    height: 60vh;
     width: 100vw;
     background-color: #001633;
     color: white;
@@ -56,4 +56,17 @@
     width: 94%;
     margin-left: 65px;
     margin-right: 65px;
+}
+.footer-upper {
+    margin-top: 50px;
+}
+.footer-newsletter {
+    text-align: left;
+    font-family: span;
+    font-size: 45px;
+    font-weight: 400;
+}
+.under-news {
+    text-align: left;
+    margin-top: -5px;
 }
