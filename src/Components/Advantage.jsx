@@ -1,7 +1,7 @@
 import React from 'react'
 import '../Styles/Advantage.css'
 import frlogo from '../Assets/Forerunner_Wordmark_White.png'
-import asterix from '../Assets/Purp-asterix.png'
+import asterix from '../Assets/green-asterix.png'
 import line from '../Assets/Line.png'
 import arrow from '../Assets/arrow.png'
 import ladies from '../Assets/ladies.png'
