@@ -48,7 +48,7 @@ const Panel2 = () => {
                 </div>
             </div>
             {/* <a id='panel2-next' onClick={click3}>Next</a> */}
-            <div className='panel2-brandName' href="">Hims & Hers</div>
+            <div className='panel2-brandName' href="">Chime</div>
             <img src={arrow} className='panel2-brandName panel2-arrow'/>
         </div>
     </div>

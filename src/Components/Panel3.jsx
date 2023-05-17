@@ -4,6 +4,8 @@ import { gsap } from 'gsap';
 import phone from '../Assets/phone.png';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import line from '../Assets/Line.png';
+import arrow from '../Assets/arrow.png'
+
 
 
 const Panel3 = () => {
@@ -47,6 +49,7 @@ const Panel3 = () => {
         </div>
         <div className='panel3-right'>
             <img src={phone} className='panel3-image' />
+            
         </div>
     </div>
     </div>

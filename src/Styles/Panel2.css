@@ -96,14 +96,15 @@
  }
 
  .panel2-brandName {
-    position: absolute;
-    font-family: post grotesk light;
-    font-size: 20px;
-    color: #001633;
-    left: 5%;
-    bottom: 5%;
- }
- .arrow {
-   left: 90;
-   bottom: -90;
- }
+   position: absolute;
+   font-family: post grotesk;
+   font-size: 20px;
+   color: #001633;
+   left: 3%;
+    bottom: -191%;
+    color: white;
+}
+
+.panel2-arrow {
+   left: 7%;
+}
