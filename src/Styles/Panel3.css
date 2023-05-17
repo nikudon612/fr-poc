@@ -93,10 +93,9 @@
    position: absolute;
    font-family: post grotesk;
    font-size: 20px;
-   color: #001633;
    left: 3%;
-    bottom: -191%;
-    color: white;
+   bottom: -191%;
+   color: #D1EF59;
 }
 
 .panel2-arrow {
