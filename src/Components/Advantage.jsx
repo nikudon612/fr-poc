@@ -31,7 +31,7 @@ function Advantage() {
         </div>
         <div className='advantage-bottom'>
             <img src={ladies} className='advantage-bottom-image'/>
-            <div className='panel5-brandName' href="">Glossier</div>
+            <div className='panel5-brandName' href="">Faire</div>
             <img src={arrow} className='panel5-brandName panel5-arrow'/>
         </div>
     </div>
