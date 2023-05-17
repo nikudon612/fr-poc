@@ -40,9 +40,16 @@
     align-items: center;
     background-color: lightgray;
 }
+.advantage-bottom-half {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 65px;
+}
 
 .advantage-bottom-half-text {
-    padding-left: 65px;
+    /* padding-left: 65px; */
+    margin-top: 20px;
 }
 
 .bolded {
@@ -64,4 +71,8 @@
 .asterix {
     /* margin-left: 43%; */
     margin-top:-4%;
+}
+
+.advantage-line {
+    width: 40%;
 }

@@ -2,6 +2,7 @@ import React from 'react'
 import '../Styles/Advantage.css'
 import frlogo from '../Assets/Forerunner_Wordmark_White.png'
 import asterix from '../Assets/Purp-asterix.png'
+import line from '../Assets/Line.png'
 
 function Advantage() {
   return (
@@ -17,6 +18,8 @@ function Advantage() {
                 <img src={asterix} className='asterix'/>
             </div>
             <div className='advantage-bottom-half'>
+            <img src={line} className='advantage-line '/>
+
                 <div className='advantage-bottom-half-text'>
                     Forerunner is a <span className='bolded'>reasearch-focused, thesis-driven</span> venture capital firm that's 
                     <br />
@@ -25,7 +28,6 @@ function Advantage() {
             </div>
         </div>
         <div className='advantage-bottom'>
-            <img />
         </div>
     </div>
   )
