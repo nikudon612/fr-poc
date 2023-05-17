@@ -1,6 +1,7 @@
 import React from 'react'
 import '../Styles/Advantage.css'
 import frlogo from '../Assets/Forerunner_Wordmark_White.png'
+import asterix from '../Assets/Purp-asterix.png'
 
 function Advantage() {
   return (
@@ -13,7 +14,7 @@ function Advantage() {
                         Advantage
                     </div>
                 </div>
-                <img />
+                <img src={asterix} className='asterix'/>
             </div>
             <div className='advantage-bottom-half'>
                 <div className='advantage-bottom-half-text'>
