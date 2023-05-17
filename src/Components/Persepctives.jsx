@@ -51,7 +51,6 @@ function Persepctives() {
         )
     })
 
-
   return (
     <div className='perspectives'>
         <div className='perspectives-top'>
