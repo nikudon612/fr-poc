@@ -3,6 +3,7 @@ import '../Styles/Advantage.css'
 import frlogo from '../Assets/Forerunner_Wordmark_White.png'
 import asterix from '../Assets/Purp-asterix.png'
 import line from '../Assets/Line.png'
+import arrow from '../Assets/arrow.png'
 
 function Advantage() {
   return (
@@ -28,6 +29,8 @@ function Advantage() {
             </div>
         </div>
         <div className='advantage-bottom'>
+            <div className='panel5-brandName' href="">Glossier</div>
+            <img src={arrow} className='panel5-brandName panel5-arrow'/>
         </div>
     </div>
   )

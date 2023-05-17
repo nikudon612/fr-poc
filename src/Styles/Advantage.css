@@ -76,3 +76,17 @@
 .advantage-line {
     width: 40%;
 }
+
+.panel5-brandName {
+    position: absolute;
+    font-family: post grotesk;
+    font-size: 20px;
+    bottom: -471%;
+    color: #D1EF59;
+    right: 3%;
+ }
+ 
+ .panel5-arrow {
+    right: 1%;
+    bottom: -470.5%;
+ }
