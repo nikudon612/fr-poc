@@ -33,10 +33,10 @@ function Header() {
         </div>
         <div className='header-right'>
           <div className='header-links'>
-            <a href='#' id="link">Companies</a>
-            <a href='#' id="link">Team</a>
-            <a href='#'id="link">Persepectives</a>
-            <a href='#' id="link">Platforms</a>
+            <a href='#' id="link">COMPANIES</a>
+            <a href='#' id="link">TEAM</a>
+            <a href='#'id="link">PERSPECTIVES</a>
+            <a href='#' id="link">PLATFORMS</a>
           </div>
         </div>
         <img src={line} className='theLine' />
