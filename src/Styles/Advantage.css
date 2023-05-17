@@ -90,3 +90,9 @@
     right: 1%;
     bottom: -470.5%;
  }
+
+ .advantage-bottom-image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+ }

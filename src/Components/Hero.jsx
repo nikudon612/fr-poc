@@ -8,6 +8,7 @@ import { ScrollToPlugin } from 'gsap/ScrollToPlugin';
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/react-splide/css';
 import arrow from '../Assets/arrow.png'
+import makeup from '../Assets/makeup.png'
 
 
 function Hero() {
@@ -68,7 +69,7 @@ function Hero() {
                         <img src={yellow} alt='image2' className='slideImage'/>
                     </SplideSlide>
                 </Splide> */}
-                <img src={mango} alt='hero' className='hero-image'/>
+                <img src={makeup} alt='hero' className='hero-image'/>
                 <div className='brandName' href="">Glossier</div>
                 <img src={arrow} className='brandName arrow'/>
             </div>

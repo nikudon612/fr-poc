@@ -4,6 +4,7 @@ import Man from '../Assets/man.png'
 import { gsap } from "gsap";
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import arrow from '../Assets/arrow.png'
+import dogs from '../Assets/dogs.png'
 
 const Panel4 = () => {
     function click5(){
@@ -36,9 +37,9 @@ const Panel4 = () => {
             </div>
         </div>
         <div className='panel4-bottom'>
-            <img src={Man} onClick={click5} className='panel4-image'/>
+            <img src={dogs} onClick={click5} className='panel4-image'/>
             {/* <a id='panel4-button' onClick={click5}>Next</a> */}
-            <div className='panel4-brandName' href="">Chime</div>
+            <div className='panel4-brandName' href="">The Farmer's Dog</div>
             <img src={arrow} className='panel4-brandName panel4-arrow'/>
         </div>
     </div>

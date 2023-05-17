@@ -5,6 +5,7 @@ import phone from '../Assets/phone.png';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import line from '../Assets/Line.png';
 import arrow from '../Assets/arrow.png'
+import oura from '../Assets/oura.png'
 
 
 
@@ -48,8 +49,8 @@ const Panel3 = () => {
             {/* <a id='panel3-next' onClick={click4}>Next</a> */}
         </div>
         <div className='panel3-right'>
-            <img src={phone} className='panel3-image' />
-            <div className='panel3-brandName' href="">Chime</div>
+            <img src={oura} className='panel3-image' />
+            <div className='panel3-brandName' href="">OURA</div>
             <img src={arrow} className='panel3-brandName panel3-arrow'/>
         </div>
     </div>
