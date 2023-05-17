@@ -6,7 +6,7 @@
 }
 
 .advantage-top {
-    height: 65%;
+    height: 60%;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -33,7 +33,7 @@
 }
 
 .advantage-bottom {
-    height: 35%;
+    height: 40%;
     width: 100%;
     display: flex;
     justify-content: center;
