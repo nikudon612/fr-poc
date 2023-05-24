@@ -8,6 +8,7 @@ import { Outlet, Link } from "react-router-dom";
 
 
 function Header() {
+  
   function changeHeader() {
     gsap.fromTo(".header", {backgroundColor: "transparent"}, { backgroundColor: "#001633", ease: "power2.inOut", scrub: true});
   }

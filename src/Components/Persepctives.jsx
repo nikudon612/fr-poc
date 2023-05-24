@@ -43,6 +43,7 @@ function Persepctives() {
       key: 6,
     },
   ];
+  
   const articleList = articleData.map((article) => {
     return (
       <SplideSlide className="pers-slide" key={article.key}>

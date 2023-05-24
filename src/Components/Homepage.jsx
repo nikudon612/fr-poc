@@ -8,8 +8,21 @@ import Panel4 from './Panel4';
 import Advantage from './Advantage';
 import Points from './Points';
 import Persepctives from './Persepctives';
+import Lenis from '@studio-freight/lenis'
 
 function Homepage() {
+  const lenis = new Lenis()
+
+lenis.on('scroll', (e) => {
+  console.log(e)
+})
+
+function raf(time) {
+  lenis.raf(time)
+  requestAnimationFrame(raf)
+}
+
+requestAnimationFrame(raf)
   return (
     <div className='homepage'>
         <Header />
