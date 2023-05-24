@@ -3,7 +3,7 @@ import './TeamMembers.css'
 
 function TeamMembers() {
   return (
-    <div className='team-members'>TeamMembers</div>
+    <div className='team-members'></div>
   )
 }
 
