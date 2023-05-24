@@ -2,4 +2,30 @@
     width: 100vw;
     height: 100vh;
     background-color: #001633;
+    display: flex;
+    color: white;
+}
+
+.team-hero-title{
+    font-size: 80px;
+    font-weight: 400;
+    font-family: voyage;
+}
+.team-hero-left {
+    width: 50%;
+}
+
+.team-hero-text {
+    margin-top:200px;
+    margin-left: 65px;
+    text-align: left;
+}
+
+.green-text {
+    color: #D1EF59
+}
+
+.bold-text {
+    font-weight: 700;
+    font-size: 20px;
 }
