@@ -1,8 +1,8 @@
 import React from "react";
-import "../Styles/Perspectives.css";
+import "../../Styles/Perspectives.css";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
-import image from "../Assets/glossier.png";
+import image from "../../Assets/glossier.png";
 
 function Persepctives() {
   const articleData = [

@@ -1,11 +1,11 @@
 import React from 'react'
-import '../Styles/Panel3.css';
+import '../../Styles/Panel3.css';
 import { gsap } from 'gsap';
-import phone from '../Assets/phone.png';
+import phone from '../../Assets/phone.png';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import line from '../Assets/Line.png';
-import arrow from '../Assets/arrow.png'
-import oura from '../Assets/oura.png'
+import line from '../../Assets/Line.png';
+import arrow from '../../Assets/arrow.png'
+import oura from '../../Assets/oura.png'
 
 
 

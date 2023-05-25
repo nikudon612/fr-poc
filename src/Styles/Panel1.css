@@ -6,7 +6,7 @@
 .panel1-top {
     display: flex;
     justify-content: space-around;
-    height: 40%;
+    height: 50vh;
 }
 .panel1-top-right {
     display: flex;
@@ -42,7 +42,7 @@
 
 .panel1-bottom {
     width: 100vw;
-    height: 61vh;
+    height: 50vh;
 }
 .panel1-image {
     width: 100%;

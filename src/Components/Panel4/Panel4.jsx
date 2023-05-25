@@ -1,10 +1,10 @@
 import React from 'react'
-import '../Styles/Panel4.css';
-import Man from '../Assets/man.png'
+import '../../Styles/Panel4.css';
+import Man from '../../Assets/man.png'
 import { gsap } from "gsap";
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import arrow from '../Assets/arrow.png'
-import dogs from '../Assets/dogs.png'
+import arrow from '../../Assets/arrow.png'
+import dogs from '../../Assets/dogs.png'
 
 const Panel4 = () => {
     function click5(){

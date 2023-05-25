@@ -1,9 +1,9 @@
 import React from 'react'
-import '../Styles/Panel1.css';
-import Rectangle7 from '../Assets/Rectangle7.png';
+import '../../Styles/Panel1.css';
+import Rectangle7 from '../../Assets/Rectangle7.png';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import arrow from '../Assets/arrow.png';
+import arrow from '../../Assets/arrow.png';
 
 const Panel1 = () => {
     function click2() {

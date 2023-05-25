@@ -1,10 +1,10 @@
 import React from "react";
-import "../Styles/Panel2.css";
-import cc from "../Assets/cc.png";
+import "../../Styles/Panel2.css";
+import cc from "../../Assets/cc.png";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import arrow from "../Assets/arrow.png";
-import line from "../Assets/Line.png";
+import arrow from "../../Assets/arrow.png";
+import line from "../../Assets/Line.png";
 
 const Panel2 = () => {
   function click3() {

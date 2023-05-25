@@ -1,7 +1,6 @@
 import './App.css';
 import Homepage from './Components/Homepage';
 import Footer from './Components/Footer';
-import LoadingScreen from './Components/LoadingScreen';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Companies from './Components/Companies/Companies';
 import Team from './Components/Team/Team';

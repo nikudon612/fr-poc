@@ -1,13 +1,13 @@
 import React from 'react'
 import Header from './Header'
 import Hero from './Hero';
-import Panel1 from './Panel1';
-import Panel2 from './Panel2';
-import Panel3 from './Panel3';
-import Panel4 from './Panel4';
+import Panel1 from './Panel1/Panel1';
+import Panel2 from './Panel2/Panel2';
+import Panel3 from './Panel3/Panel3';
+import Panel4 from './Panel4/Panel4';
 import Advantage from './Advantage';
 import Points from './Points';
-import Persepctives from './Persepctives';
+import Persepctives from './Perspectives/Persepctives';
 import Lenis from '@studio-freight/lenis'
 
 function Homepage() {
