@@ -11,6 +11,7 @@
     /* border-bottom: 1px solid #D0D3DA; */
     z-index: 100;
     justify-content: space-between;
+    /* background-color: #001633; */
 }
 .header-logo {
     display: flex;
@@ -71,4 +72,8 @@
     top: 100px;
     left: 60px;
     width: 92.5%;
+}
+
+.active {
+    color: #D1EF59!important;
 }

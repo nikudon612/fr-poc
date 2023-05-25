@@ -7,8 +7,8 @@ function TeamHero() {
     <div className='TeamHero'>
         <div className='team-hero-left'>
             <div className='team-hero-text'>
-                <div className='team-hero-title'>Unique <span className='green-text'>People.</span></div> 
-                <div className='team-hero-title'>Unique <span className='green-text'>Approaches.</span></div> 
+                <div className='team-hero-title bottom-margin'>Unique <span className='green-text'>People.</span></div> 
+                <div className='team-hero-title bottom-space'>Unique <span className='green-text'>Approaches.</span></div> 
                 <div className='team-hero-subtitle'>We’re a diverse team of visionaries and veterans who looked at the VC industry and said: <span className='team-bold-text'>“We can do more.”</span> Together, we’re redefining what VC can be — for consumers who deserve better.
                 </div>
             </div>

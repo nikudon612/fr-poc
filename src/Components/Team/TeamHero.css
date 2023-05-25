@@ -10,6 +10,7 @@
     font-size: 80px;
     font-weight: 400;
     font-family: voyage;
+    /* margin-bottom: -35px; */
 }
 .team-hero-left {
     width: 50%;
@@ -18,7 +19,9 @@
 .team-hero-text {
     margin-top:200px;
     margin-left: 65px;
+    margin-right: 65px;
     text-align: left;
+    font-size: 20px;
 }
 
 .green-text {
@@ -28,4 +31,11 @@
 .team-bold-text {
     font-weight: 700;
     font-size: 20px;
+}
+
+.bottom-margin {
+    margin-bottom: -40px;
+}
+.bottom-space {
+    margin-bottom: 30px;
 }

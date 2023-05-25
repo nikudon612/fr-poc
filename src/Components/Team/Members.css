@@ -1,0 +1,24 @@
+.members {
+    color: black;
+}
+
+.member {
+    height: 500px;
+    width: 400px;
+}
+.member-name {
+    font-family: 'Span';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 38px;
+    color: #001633;
+    text-align: left;
+}
+.member-title {
+    font-family: 'Post Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    color: #001633;
+    text-align: left;
+}
