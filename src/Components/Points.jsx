@@ -41,6 +41,24 @@ function Points() {
     }, 
     onComplete: fadeInTwo});
 
+    function fadeInThreeLower() {
+        gsap.fromTo("#point-3-lower", {opacity: 0, y: 50}, {duration: 1, y:0, opacity: 1, ease: "power2.inOut", });
+    }
+
+    function fadeInThree() {
+        gsap.fromTo("#point-3", {opacity: 0, y: 50}, {duration: 1, y:0, opacity: 1, ease: "power2.inOut", onComplete: fadeInThreeLower });
+
+    }
+
+    gsap.from('#point-2', { scrollTrigger: {
+        trigger: ".points",
+        start: "top 20%",
+        end: "center center",
+        once: true,
+        markers: {startColor: "green", endColor: "red", fontSize: "12px"}
+    }, 
+    onComplete: fadeInThree});
+
     })
     
   return (
