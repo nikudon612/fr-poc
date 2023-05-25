@@ -89,15 +89,16 @@
     cursor: pointer;
  }
 
- .panel2-brandName {
+ .panel3-brandName {
    position: absolute;
    font-family: post grotesk;
    font-size: 20px;
-   left: 3%;
-   bottom: -191%;
-   color: white;
+   bottom: -289%;
+   color: #001633;
+   right: 3%;
 }
 
-.panel2-arrow {
-   left: 7%;
+.panel3-arrow {
+   right: 1%;
+   bottom: -288.5%;
 }
