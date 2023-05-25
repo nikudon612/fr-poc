@@ -61,7 +61,7 @@ font-weight: 700;
     text-align: left;
     /* margin-left: 30px; */
     margin-right: 50px;
-    
+    margin-bottom: 100px;
 }
 
 .pers-slide:hover {
@@ -91,7 +91,7 @@ font-weight: 700;
     font-weight: 700;
     font-family: post grotesk;
     /* margin-left: 20px; */
-    margin-top: 10px;
+    margin-top: 20px;
     display: flex;
     justify-content: center;
     text-transform: uppercase;
@@ -117,5 +117,5 @@ font-weight: 700;
 }
 .splide__arrow {
     background: none;
-    
+    padding-bottom: 100px;
 }
