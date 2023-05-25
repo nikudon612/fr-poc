@@ -122,7 +122,8 @@ function Persepctives() {
           data.map((item) => {
             return (
               <SplideSlide className="pers-slide" key={item.sys.id}>
-                <img className="pers-image" src={item.fields.teaserImage} alt="" />
+                <img className="pers-image" src={item.fields.teaserImage.fields.file.url} alt="" />
+                {/* <div className='pers-image'>{item.fields.teaserImage.fields.file.url}</div> */}
                 <div className="slide-text">
                   <div className="slide-type">{item.fields.tag1}</div>
                   <div className="slide-sub">{item.fields.title}</div>
