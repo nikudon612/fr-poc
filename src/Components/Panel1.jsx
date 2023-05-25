@@ -42,11 +42,10 @@ const Panel1 = () => {
         </div>
         <div className='panel1-bottom'>
             <img src={Rectangle7} alt='panel1' className='panel1-image'/>
-            {/* <a id='panel1-hero-button' onClick={click2}>
-                 Next
-            </a> */}
-            <div className='panel1-brandName' href="">Hims & Hers</div>
-            <img src={arrow} className='panel1-brandName panel1-arrow'/>
+            <div className='panel1-image-overlay'>
+                <div className='panel1-brandName' href="">Hims & Hers</div>
+                <img src={arrow} className='panel1-brandName panel1-arrow'/>
+            </div>
         </div>
         
     </div>

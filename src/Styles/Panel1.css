@@ -72,11 +72,20 @@
     font-family: post grotesk;
     font-size: 20px;
     color: #001633;
-    bottom: -930px;
-    left: 50px;
+    /* bottom: -930px; */
+    /* left: 50px; */
   }
 
   .panel1-arrow {
     left: 165px;
     bottom: -925px;
+  }
+
+  .panel1-image-overlay {
+    position: absolute;
+    opacity: 0.5;
+    z-index: 1;
+    width: 120px;
+    margin-left: 65px;
+    margin-top: -65px;
   }
