@@ -9,64 +9,100 @@ import { gsap } from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 
 function Advantage() {
-    React.useEffect(() => {
-            gsap.registerPlugin(ScrollTrigger);
+  React.useEffect(() => {
+    gsap.registerPlugin(ScrollTrigger);
 
-            function fadeIn() {
-              gsap.fromTo(
-                ".advantage-logo",
-                { opacity: 0, y: 50 },
-                {
-                  duration: 1,
-                  y: 0,
-                  opacity: 1,
-                  ease: "power2.inOut",
-                  onComplete: fadeAdvantageIn(),
-                }
-              );
-            }
+    function fadeIn() {
+      gsap.fromTo(
+        ".advantage-logo",
+        { opacity: 0, y: 50 },
+        {
+          duration: 1,
+          y: 0,
+          opacity: 1,
+          ease: "power2.inOut",
+          onComplete: fadeAdvantageIn(),
+        }
+      );
+    }
 
-            function fadeAdvantageIn() {
-                gsap
-                  .fromTo(
-                    ".advantage-text-sub",
-                    { opacity: 0, y: 50 },
-                    { duration: 1, y: 0, opacity: 1, ease: "power2.inOut", onComplete: fadeAsterixIn()
-                }
-                  )
-                  .delay(0.6);
-              }
+    function fadeAdvantageIn() {
+      gsap
+        .fromTo(
+          ".advantage-text-sub",
+          { opacity: 0, y: 50 },
+          {
+            duration: 1,
+            y: 0,
+            opacity: 1,
+            ease: "power2.inOut",
+            onComplete: fadeAsterixIn(),
+          }
+        )
+        .delay(0.6);
+    }
 
-              function fadeAsterixIn() {
-                gsap
-                  .fromTo(
-                    ".asterix",
-                    { opacity: 0, y: 50 },
-                    { duration: 1, y: 0, opacity: 1, ease: "power2.inOut", onComplete: fadeLowerText() }
-                  )
-                  .delay(0.6);
-            }
+    function fadeAsterixIn() {
+      gsap
+        .fromTo(
+          ".asterix",
+          { opacity: 0, y: 50 },
+          {
+            duration: 1,
+            y: 0,
+            opacity: 1,
+            ease: "power2.inOut",
+            onComplete: fadeLowerText(),
+          }
+        )
+        .delay(0.6);
+    }
 
-            function fadeLowerText() {
-                gsap
-                  .fromTo(
-                    ".advantage-bottom-half-text",
-                    { opacity: 0, y: 50 },
-                    { duration: 1, y: 0, opacity: 1, ease: "power2.inOut", }
-                  )
-                  .delay(0.6);
-            }
+    function fadeLowerText() {
+      gsap
+        .fromTo(
+          ".advantage-bottom-half-text",
+          { opacity: 0, y: 50 },
+          { duration: 1, y: 0, opacity: 1, ease: "power2.inOut" }
+        )
+        .delay(0.6);
+    }
 
-            gsap.from(".advantage", {
-                scrollTrigger: {
-                  trigger: ".advantage",
-                  start: "top 80%",
-                  end: "center center",
-                  once: true,
-                },
-                onComplete: fadeIn,
-              });
-    }, []);
+    gsap.from(".advantage", {
+      scrollTrigger: {
+        trigger: ".advantage",
+        start: "top 80%",
+        end: "center center",
+        once: true,
+      },
+      onComplete: fadeIn,
+    });
+
+    function fadeInBottom() {
+      gsap
+        .fromTo(
+          ".advantage-bottom-half",
+          { opacity: 0, y: 50 },
+          {
+            duration: 1,
+            y: 0,
+            opacity: 1,
+            ease: "power2.inOut",
+          }
+        )
+        .delay(0.6);
+    }
+
+    gsap.from(".advantage-bottom-half", {
+      scrollTrigger: {
+        trigger: ".advantage",
+        start: "top 50%",
+        end: "center center",
+        once: true,
+      },
+      onComplete: fadeInBottom,
+    });
+  }, []);
   return (
     <div className="advantage">
       <div className="advantage-top">
