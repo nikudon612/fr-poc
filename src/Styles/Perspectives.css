@@ -69,7 +69,7 @@ font-weight: 700;
 }
 .pers-image {
     width: 375px;
-    height: 400px;
+    min-height: 325px;
 }
 .splide_list {
     align-items: center !important;
@@ -81,6 +81,8 @@ font-weight: 700;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    text-transform: capitalize!important;
+
 }
 .slide-type {
     background-color: white;
@@ -92,6 +94,7 @@ font-weight: 700;
     margin-top: 10px;
     display: flex;
     justify-content: center;
+    text-transform: uppercase;
 }
 .slide-sub {
     font-size: 20px;
