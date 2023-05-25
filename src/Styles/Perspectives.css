@@ -75,7 +75,7 @@ font-weight: 700;
     align-items: center !important;
 }
 .slide-text {
-    background-color: #D1EF59;
+    /* background-color: #D1EF59; */
     width: 100%;
     height: 130px;
     display: flex;
@@ -84,11 +84,11 @@ font-weight: 700;
 }
 .slide-type {
     background-color: white;
-    width: 25%;
+    /* width: 25%; */
     font-size: 14px;
     font-weight: 700;
     font-family: post grotesk;
-    margin-left: 20px;
+    /* margin-left: 20px; */
     margin-top: 10px;
     display: flex;
     justify-content: center;
@@ -97,7 +97,7 @@ font-weight: 700;
     font-size: 20px;
     font-weight: 400;
     font-family: span;
-    margin-left: 20px;
+    /* margin-left: 20px; */
     margin-top: 10px;
     margin-bottom: 10px;
 }
