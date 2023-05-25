@@ -3,8 +3,25 @@ import "../../Styles/Perspectives.css";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
 import image from "../../Assets/glossier.png";
+import gsap  from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 function Persepctives() {
+
+  React.useEffect(() => {
+    gsap.registerPlugin(ScrollTrigger)
+    function fadeIn() {
+      gsap.fromTo(".pers-text", {opacity: 0, y: 50}, {duration: 1, y:0, opacity: 1, ease: "power2.inOut", });
+    }
+    gsap.from('.perspectives', { scrollTrigger: {
+      trigger: ".perspectives",
+      start: "top 80%",
+      end: "center center",
+      once: true,
+      }, 
+      onComplete: fadeIn});
+  });
+
   const articleData = [
     {
       photo: image,
