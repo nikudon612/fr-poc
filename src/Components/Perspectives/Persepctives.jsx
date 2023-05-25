@@ -20,7 +20,7 @@ function Persepctives() {
     }
     gsap.from('.perspectives', { scrollTrigger: {
       trigger: ".perspectives",
-      start: "top 80%",
+      start: "top 50%",
       end: "center center",
       once: true,
       }, 
@@ -44,58 +44,6 @@ function Persepctives() {
     };
     fetchData();
   }, []);
-
-  const articleData = [
-    {
-      photo: image,
-      type: "INSIGHTS",
-      title: "The Crumbling Infrastructure of the Web",
-      key: 1,
-    },
-    {
-      photo: image,
-      type: "THESIS",
-      title: "The Future Forerunners; Fund VI $1B",
-      key: 2,
-    },
-    {
-      photo: image,
-      type: "PORTFOLIO",
-      title: "Glossier Gets A Makover",
-      key: 3,
-    },
-    {
-      photo: image,
-      type: "PORTFOLIO",
-      title: "Glossier Gets A Makover",
-      key: 4,
-    },
-    {
-      photo: image,
-      type: "INSIGHTS",
-      title: "The Crumbling Infrastructure of the Web",
-      key: 5,
-    },
-    {
-      photo: image,
-      type: "THESIS",
-      title: "The Future Forerunners; Fund VI $1B",
-      key: 6,
-    },
-  ];
-  
-  const articleList = articleData.map((article) => {
-    return (
-      <SplideSlide className="pers-slide" key={article.key}>
-        <img className="pers-image" src={article.photo} alt="" />
-        <div className="slide-text">
-          <div className="slide-type">{article.type}</div>
-          <div className="slide-sub">{article.title}</div>
-        </div>
-      </SplideSlide>
-    );
-  });
-
   return (
     <div className="perspectives">
       <div className="perspectives-top">
@@ -123,7 +71,6 @@ function Persepctives() {
             return (
               <SplideSlide className="pers-slide" key={item.sys.id}>
                 <img className="pers-image" src={item.fields.teaserImage.fields.file.url} alt="" />
-                {/* <div className='pers-image'>{item.fields.teaserImage.fields.file.url}</div> */}
                 <div className="slide-text">
                   <div className="slide-type">{item.fields.tag1}</div>
                   <div className="slide-sub">{item.fields.title}</div>
