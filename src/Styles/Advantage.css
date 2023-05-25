@@ -29,6 +29,7 @@
   font-size: 100px;
   color: #d1ef59;
   margin-top: -85px;
+  opacity: 0;
 }
 
 .advantage-bottom {
@@ -58,6 +59,7 @@
 .advantage-logo {
   height: 90px;
   margin-bottom: 50px;
+  opacity: 0;
 }
 
 .advantage-top-half {
@@ -71,6 +73,7 @@
 .asterix {
   /* margin-left: 43%; */
   margin-top: -4%;
+  opacity: 0;
 }
 
 .advantage-line {
@@ -104,4 +107,12 @@
     width: 200px;
     left: 3%;
     margin-top: 300px;
+}
+
+#point-1, #point-2, #point-3 {
+    opacity: 0;
+}
+
+#point-1-lower, #point-2-lower, #point-3-lower {
+    opacity: 0;
 }

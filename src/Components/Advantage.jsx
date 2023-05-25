@@ -5,8 +5,68 @@ import asterix from "../Assets/green-asterix.png";
 import line from "../Assets/Line.png";
 import arrow from "../Assets/arrow.png";
 import ladies from "../Assets/ladies.png";
+import { gsap } from "gsap";
+import ScrollTrigger from "gsap/ScrollTrigger";
 
 function Advantage() {
+    React.useEffect(() => {
+            gsap.registerPlugin(ScrollTrigger);
+
+            function fadeIn() {
+              gsap.fromTo(
+                ".advantage-logo",
+                { opacity: 0, y: 50 },
+                {
+                  duration: 1,
+                  y: 0,
+                  opacity: 1,
+                  ease: "power2.inOut",
+                  onComplete: fadeAdvantageIn(),
+                }
+              );
+            }
+
+            function fadeAdvantageIn() {
+                gsap
+                  .fromTo(
+                    ".advantage-text-sub",
+                    { opacity: 0, y: 50 },
+                    { duration: 1, y: 0, opacity: 1, ease: "power2.inOut", onComplete: fadeAsterixIn()
+                }
+                  )
+                  .delay(0.6);
+              }
+
+              function fadeAsterixIn() {
+                gsap
+                  .fromTo(
+                    ".asterix",
+                    { opacity: 0, y: 50 },
+                    { duration: 1, y: 0, opacity: 1, ease: "power2.inOut", onComplete: fadeLowerText() }
+                  )
+                  .delay(0.6);
+            }
+
+            function fadeLowerText() {
+                gsap
+                  .fromTo(
+                    ".advantage-bottom-half-text",
+                    { opacity: 0, y: 50 },
+                    { duration: 1, y: 0, opacity: 1, ease: "power2.inOut", }
+                  )
+                  .delay(0.6);
+            }
+
+            gsap.from(".advantage", {
+                scrollTrigger: {
+                  trigger: ".advantage",
+                  start: "top 80%",
+                  end: "center center",
+                  once: true,
+                },
+                onComplete: fadeIn,
+              });
+    }, []);
   return (
     <div className="advantage">
       <div className="advantage-top">
