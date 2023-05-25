@@ -37,7 +37,6 @@ function Points() {
         start: "top 50%",
         end: "center center",
         once: true,
-        markers: {startColor: "green", endColor: "red", fontSize: "12px"}
     }, 
     onComplete: fadeInTwo});
 
@@ -55,7 +54,6 @@ function Points() {
         start: "top 20%",
         end: "center center",
         once: true,
-        markers: {startColor: "green", endColor: "red", fontSize: "12px"}
     }, 
     onComplete: fadeInThree});
 

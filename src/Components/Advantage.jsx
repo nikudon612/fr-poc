@@ -36,7 +36,6 @@ function Advantage() {
             y: 0,
             opacity: 1,
             ease: "power2.inOut",
-            onComplete: fadeAsterixIn(),
           }
         )
         .delay(0.6);
@@ -93,6 +92,7 @@ function Advantage() {
         .delay(0.6);
     }
 
+
     gsap.from(".advantage-bottom-half", {
       scrollTrigger: {
         trigger: ".advantage",
@@ -100,7 +100,7 @@ function Advantage() {
         end: "center center",
         once: true,
       },
-      onComplete: fadeInBottom,
+      onComplete: fadeAsterixIn,
     });
   }, []);
   return (

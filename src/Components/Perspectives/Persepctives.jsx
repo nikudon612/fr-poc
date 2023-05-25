@@ -1,12 +1,17 @@
-import React from "react";
+import React, { useEffect, useState } from 'react';
 import "../../Styles/Perspectives.css";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
 import image from "../../Assets/glossier.png";
 import gsap  from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { createClient } from 'contentful';
+
 
 function Persepctives() {
+  //Set Data State
+    const [data, setData] = useState(null);
+    
 
   React.useEffect(() => {
     gsap.registerPlugin(ScrollTrigger)
@@ -20,7 +25,25 @@ function Persepctives() {
       once: true,
       }, 
       onComplete: fadeIn});
-  });
+
+      const client = createClient({
+        space: process.env.REACT_APP_SPACE_ID,
+        accessToken: process.env.REACT_APP_ACCESS_TOKEN,
+      });
+
+
+    const fetchData = async () => {
+      try {
+        const response = await client.getEntries({
+          content_type: 'perspective',
+        });
+        setData(response.items);
+      } catch (error) {
+        console.error('Error retrieving data from Contentful:', error);
+      }
+    };
+    fetchData();
+  }, []);
 
   const articleData = [
     {
@@ -88,8 +111,7 @@ function Persepctives() {
         <button className="pers-button right-margin">View all</button>
       </div>
       <div className="perspectives-bottom mask">
-        {/* <div className='mask'></div> */}
-        <Splide
+        {/* <Splide
           className="pers-slider"
           options={{
             pagination: false,
@@ -97,7 +119,16 @@ function Persepctives() {
           }}
         >
           {articleList}
-        </Splide>
+        </Splide> */}
+        {data ? (
+          <ul>
+            {data.map((item) => (
+              <li key={item.sys.id}>{item.fields.title}</li>
+            ))}
+          </ul>
+        ) : (
+          <p>Loading Data...</p>
+        )}
       </div>
     </div>
   );
