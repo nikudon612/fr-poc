@@ -111,24 +111,29 @@ function Persepctives() {
         <button className="pers-button right-margin">View all</button>
       </div>
       <div className="perspectives-bottom mask">
-        {/* <Splide
+        <Splide
           className="pers-slider"
           options={{
             pagination: false,
             perPage: 3,
           }}
         >
-          {articleList}
-        </Splide> */}
         {data ? (
-          <ul>
-            {data.map((item) => (
-              <li key={item.sys.id}>{item.fields.title}</li>
-            ))}
-          </ul>
+          data.map((item) => {
+            return (
+              <SplideSlide className="pers-slide" key={item.sys.id}>
+                <img className="pers-image" src={item.fields} alt="" />
+                <div className="slide-text">
+                  <div className="slide-type">{item.fields.type}</div>
+                  <div className="slide-sub">{item.fields.title}</div>
+                </div>
+              </SplideSlide>
+            );
+          })
         ) : (
           <p>Loading Data...</p>
         )}
+        </Splide>
       </div>
     </div>
   );
