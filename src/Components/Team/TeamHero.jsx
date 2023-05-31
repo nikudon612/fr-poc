@@ -15,7 +15,7 @@ function TeamHero() {
         </div>
         <div className='hero-right'>
             <div className='hero-image'>
-                <img src={Image} alt='hero-pic' className='hero-image'/>
+                {/* <img src={Image} alt='hero-pic' className='hero-image'/> */}
                 <div className='brandName' href="">Glossier</div>
                 {/* <img src={arrow} className='brandName arrow'/> */}
             </div>
