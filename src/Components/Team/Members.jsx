@@ -1,17 +1,17 @@
 import React from 'react'
 import './Members.css'
 
-function Members({member}) {
+function Members({item}) {
   return (
         <div className='member'>
             <div className='member-photo'>
-                <img src={member.photo} alt='member' />
+                <img src={item.photo} alt='member' />
             </div>
                 <div className='member-name'>
-                    {member.name}
+                    {item.fields.name}
                 </div>
                 <div className='member-title'>
-                    {member.title}
+                    {item.position}
                 </div>
             </div>
   )

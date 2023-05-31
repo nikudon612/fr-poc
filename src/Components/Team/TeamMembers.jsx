@@ -37,7 +37,7 @@ function TeamMembers() {
     const fetchData = async () => {
       try {
         const response = await client.getEntries({
-          content_type: 'perspective',
+          content_type: 'bio',
         });
         setData(response.items);
       } catch (error) {
@@ -54,7 +54,7 @@ function TeamMembers() {
       <div className='team-members-section'>
         {data && data.map((item) => {
           return (
-            <Members member={item} />
+            <Members item={item} />
           )
         }, [])}
         {/* {memberData.map((mem) => {
