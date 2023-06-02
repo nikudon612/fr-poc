@@ -5,7 +5,7 @@ function Members({item}) {
   return (
         <div className='member'>
             <div className='member-photo'>
-                <img src={item.photo} alt='member' />
+                <img src={item.image} alt='member' />
             </div>
                 <div className='member-name'>
                     {item.fields.name}
